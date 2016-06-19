@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1455264387 source:c:\users\dalan\documents\cours\semestre 1\projets personnalises\trifichier\maintenance\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ENTRY timestamp='10:14:28'>CREATE TABLE `comclisio1_201516_mlebeau`.`Etudiant` (&#x0A;  `numero` INT UNSIGNED NOT NULL COMMENT &apos;&apos;,&#x0A;  `nom` VARCHAR(45) NOT NULL COMMENT &apos;&apos;,&#x0A;  `prenom` VARCHAR(45) NOT NULL COMMENT &apos;&apos;,&#x0A;  `ddn` DATE NULL COMMENT &apos;&apos;,&#x0A;  `mail` VARCHAR(45) NULL DEFAULT &apos;btssio@jbdelasalle.com&apos; COMMENT &apos;&apos;,&#x0A;  PRIMARY KEY (`numero`)  COMMENT &apos;&apos;)</ENTRY>
+<ENTRY timestamp='10:16:04'>SELECT * FROM comclisio1_201516_mlebeau.Etudiant</ENTRY>
+<ENTRY timestamp='10:16:44'>INSERT INTO `comclisio1_201516_mlebeau`.`Etudiant` (`nom`, `prenom`, `ddn`, `mail`) VALUES (&apos;Lebeau&apos;, &apos;Michaël&apos;, &apos;02/09/1196&apos;, &apos;mikaleb@live.fr&apos;)</ENTRY>
+<ENTRY timestamp='10:16:59'>UPDATE `comclisio1_201516_mlebeau`.`Etudiant` SET `ddn`=&apos;1996-09-02&apos; WHERE `numero`=&apos;0&apos;</ENTRY>
+<ENTRY timestamp='10:18:45'>CREATE TABLE `comclisio1_201516_mlebeau`.`Classe` (&#x0A;  `numero` INT NOT NULL AUTO_INCREMENT COMMENT &apos;&apos;,&#x0A;  `nom` VARCHAR(45) NULL COMMENT &apos;&apos;,&#x0A;  PRIMARY KEY (`numero`)  COMMENT &apos;&apos;)</ENTRY>
+<ENTRY timestamp='10:18:52'>SELECT * FROM comclisio1_201516_mlebeau.Classe</ENTRY>
+<ENTRY timestamp='10:19:34'>ALTER TABLE `comclisio1_201516_mlebeau`.`Etudiant` &#x0A;ADD COLUMN `numeroClasse` INT UNSIGNED NULL COMMENT &apos;&apos; AFTER `mail`</ENTRY>
+<ENTRY timestamp='10:20:08'>INSERT INTO `comclisio1_201516_mlebeau`.`Classe` (`nom`) VALUES (&apos;BSSIO1&apos;)</ENTRY>
+<ENTRY timestamp='~'>INSERT INTO `comclisio1_201516_mlebeau`.`Classe` (`nom`) VALUES (&apos;BTSSIO2&apos;)</ENTRY>
+<ENTRY timestamp='~'>INSERT INTO `comclisio1_201516_mlebeau`.`Classe` (`nom`) VALUES (&apos;BTSNRC1&apos;)</ENTRY>
+<ENTRY timestamp='~'>INSERT INTO `comclisio1_201516_mlebeau`.`Classe` (`nom`) VALUES (&apos;BTSNRC2&apos;)</ENTRY>
+<ENTRY timestamp='10:20:42'>DELETE FROM `comclisio1_201516_mlebeau`.`Classe` WHERE `numero`=&apos;4&apos;</ENTRY>
+<ENTRY timestamp='10:20:53'>SELECT * FROM comclisio1_201516_mlebeau.Classe</ENTRY>
+<ENTRY timestamp='10:20:59'>SELECT * FROM comclisio1_201516_mlebeau.Etudiant</ENTRY>
+<ENTRY timestamp='10:21:08'>UPDATE `comclisio1_201516_mlebeau`.`Etudiant` SET `numeroClasse`=&apos;1&apos; WHERE `numero`=&apos;0&apos;</ENTRY>
+<ENTRY timestamp='10:21:47'>SELECT * FROM comclisio1_201516_mlebeau.Classe</ENTRY>
+<ENTRY timestamp='10:21:50'>SELECT * FROM comclisio1_201516_mlebeau.Etudiant</ENTRY>
+<ENTRY timestamp='10:25:33'>ALTER TABLE `comclisio1_201516_mlebeau`.`Classe` &#x0A;CHANGE COLUMN `numero` `numero` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT &apos;&apos;</ENTRY>
+<ENTRY timestamp='10:26:25'>ALTER TABLE `comclisio1_201516_mlebeau`.`Etudiant` &#x0A;ADD INDEX `Fk_etudiant_classe_idx` (`numeroClasse` ASC)  COMMENT &apos;&apos;</ENTRY>
+<ENTRY timestamp='~'>ALTER TABLE `comclisio1_201516_mlebeau`.`Etudiant` &#x0A;ADD CONSTRAINT `Fk_etudiant_classe`&#x0A;  FOREIGN KEY (`numeroClasse`)&#x0A;  REFERENCES `comclisio1_201516_mlebeau`.`Classe` (`numero`)&#x0A;  ON DELETE NO ACTION&#x0A;  ON UPDATE NO ACTION</ENTRY>

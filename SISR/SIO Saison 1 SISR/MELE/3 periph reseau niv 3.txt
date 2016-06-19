@@ -1,0 +1,60 @@
+3.périph reseau de niveau 3
+
+les routeurs
+
+-Les routeurs sont des periph reseau de couche 3 permettant de relier les réseaux les uns aux autres.
+-Dans un réseau d'entreprise, le routeur assure la liaison entre le réseau WAN et le reseau local de l'entreprise.
+-Le routeur devient la passerelle, autrement dit le passage vers l'exterieur, du réseau local.
+-Les routeurs utilisent les adresse ip pour transferer des paquet vers d'autre réseaux.
+- Un commutateur recevant une trame de type broadcast sur l'un de ses ports, 
+la difusera cette meme trame sur tout les autre ports.
+-Par contre, les routeurs ne transmettent pas les messages broadcast.
+
+
+3. reseau = routeur
+2. liaison donnée = commutateur, pont
+1. physique = hub
+
+4. Périph réseau spécifiques
+
+Les périph multifonction
+
+-Les périph multi sont des périph réseau ayant plusieurs utilités.
+-Dans les réseaux domestiques, le routeur permet de connecter les ordinateurs et les périph réseau à internet.
+-Le routeur sert de passerelle domestique et de commutateur.
+-Le routeur sans fil ser de passerelle, de pointd'acces sans fil et de commutateur.
+Les périph multifonctions peuvent également servir de modem.
+
+DSLAM
+
+-DSLAM(Digital Subscriber Line Access Multiplexer), 
+soit en français, "multiplexeur d'acces à la ligne d'abonné numérique" (plus simplement: multiplexeur d'acces DSL)
+-Le DSLAM est un multiplexeur qui permet d'assurer sur les lignes  téléphonique un service de type DSL(VDSL,ADSL,VDSL2....)
+leplus souvent dans le but de permettre un accès, a haut débit, àinternet.
+-Techniquement, le DSLAM récupère le trafic de données, issu des lignes d'abonnés DSL (internet haut, television par ADSL)
+transitant sur les ligne telephoniques qui lui sont racordées, après que ce trafic a été séparé du trafic vocal issu de la téléphonie classique, grâce à un filtre.
+
+PABX/IPBX
+
+un PABX(Private Automatic Branch eXchange) est un autocommutateur téléphonique privé.)
+Sert principalement relier les poste telephonique d'un etablissement (ligne interne) avec le reseau telephonique public (ligne externes).
+
+On désigne par PABX IP(PBX IP ou encore IPBX) un autocommutateur telephonique privé utilisant le protocole internet (IP) pour gérer les appels telephonique d'une entreprise
+e, interne sur son réseu local.
+
+-Couplé a des technologie de voix sur IP, les communications telephonique pourront etre acheminé sur le reseau etendu (WAN) de l'entreprise.
+
+-Un PABX/IPBX
+	-relier plus de ligne interne qu'il n'y da de ligne externes;
+	-autoriser des apel entre postes internes sans passer par le reseau public
+	-Programmer des droits d'acces au réseau public pour chaque poste interne
+	-proposer un ensemble de services telephonique (conference, transfert d'appel, renvois, messagerie, appel par nom...)
+	-Gere un portier interphone d'immeuble et commander une gache 
+	-......
+
+Les tel VoIP
+
+-La VoIP (Voice Over Internet Protocol permet de faire transiter les appel téléphoniques sur des réseux de données et sur internet.
+-Convertit les signaux analogiques de la voix en données numériques qui sont transporter sous forme de paquet IP
+-La voix sur IP peut également utiliser un reseau IP existant pour fournir un acces au réseau telephonique public cmmunauté RTPC.
+

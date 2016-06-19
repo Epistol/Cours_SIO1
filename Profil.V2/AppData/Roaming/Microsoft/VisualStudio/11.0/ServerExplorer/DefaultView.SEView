@@ -1,0 +1,42 @@
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:RootNode id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Microsoft.VSDesigner.ServerExplorer/Microsoft.VisualStudio.ServerExplorer%2C%20Version%3D11.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<Children href="#ref-3"/>
+</a1:RootNode>
+<SOAP-ENC:Array id="ref-3" SOAP-ENC:arrayType="a1:NodeSite[3]" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Microsoft.VSDesigner.ServerExplorer/Microsoft.VisualStudio.ServerExplorer%2C%20Version%3D11.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<item href="#ref-4"/>
+<item href="#ref-5"/>
+<item href="#ref-6"/>
+</SOAP-ENC:Array>
+<a1:NodeSite id="ref-4" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Microsoft.VSDesigner.ServerExplorer/Microsoft.VisualStudio.ServerExplorer%2C%20Version%3D11.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<Node href="#ref-7"/>
+<Expanded>false</Expanded>
+<Parent href="#ref-1"/>
+<Children href="#ref-8"/>
+</a1:NodeSite>
+<a1:NodeSite id="ref-5" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Microsoft.VSDesigner.ServerExplorer/Microsoft.VisualStudio.ServerExplorer%2C%20Version%3D11.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<Node href="#ref-10"/>
+<Expanded>false</Expanded>
+<Parent href="#ref-1"/>
+<Children href="#ref-11"/>
+</a1:NodeSite>
+<a1:NodeSite id="ref-6" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Microsoft.VSDesigner.ServerExplorer/Microsoft.VisualStudio.ServerExplorer%2C%20Version%3D11.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<Node href="#ref-12"/>
+<Expanded>false</Expanded>
+<Parent href="#ref-1"/>
+<Children href="#ref-13"/>
+</a1:NodeSite>
+<a1:DataConnectionsNode id="ref-7" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Microsoft.VSDesigner.ServerExplorer/Microsoft.VisualStudio.ServerExplorer%2C%20Version%3D11.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+</a1:DataConnectionsNode>
+<SOAP-ENC:Array id="ref-8" SOAP-ENC:arrayType="a1:NodeSite[0]" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Microsoft.VSDesigner.ServerExplorer/Microsoft.VisualStudio.ServerExplorer%2C%20Version%3D11.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+</SOAP-ENC:Array>
+<a2:SharePointExplorer id="ref-10" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/Microsoft.VisualStudio.SharePoint.Explorer/Microsoft.VisualStudio.SharePoint.Explorer%2C%20Version%3D11.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+</a2:SharePointExplorer>
+<SOAP-ENC:Array id="ref-11" SOAP-ENC:arrayType="a1:NodeSite[0]" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Microsoft.VSDesigner.ServerExplorer/Microsoft.VisualStudio.ServerExplorer%2C%20Version%3D11.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+</SOAP-ENC:Array>
+<a1:ServersNode id="ref-12" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Microsoft.VSDesigner.ServerExplorer/Microsoft.VisualStudio.ServerExplorer%2C%20Version%3D11.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+</a1:ServersNode>
+<SOAP-ENC:Array id="ref-13" SOAP-ENC:arrayType="a1:NodeSite[0]" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Microsoft.VSDesigner.ServerExplorer/Microsoft.VisualStudio.ServerExplorer%2C%20Version%3D11.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+</SOAP-ENC:Array>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

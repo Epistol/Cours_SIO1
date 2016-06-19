@@ -1,0 +1,2 @@
+class etudiant:
+    def NomEtud(

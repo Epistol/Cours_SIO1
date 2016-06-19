@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<data grt_format="2.0">
+  <value _ptr_="0000000022EB2E00" type="list" content-type="object" content-struct-name="db.mgmt.Connection">
+    <value type="object" struct-name="db.mgmt.Connection" id="{218C4D5C-60DE-474C-A652-0F48E902174D}" struct-checksum="0x96ba47d8">
+      <link type="object" struct-name="db.mgmt.Driver" key="driver">com.mysql.rdbms.mysql.driver.native</link>
+      <value type="string" key="hostIdentifier">Mysql@192.168.153.103:3306</value>
+      <value type="int" key="isDefault">0</value>
+      <value _ptr_="0000000029178D30" type="dict" key="modules"/>
+      <value _ptr_="0000000029178EF0" type="dict" key="parameterValues">
+        <value type="string" key="DbSqlEditor:LastDefaultSchema">comclisio1_201516_mlebeau</value>
+        <value type="string" key="SQL_MODE"></value>
+        <value type="string" key="hostName">192.168.153.103</value>
+        <value type="int" key="lastConnected">1442303204</value>
+        <value type="string" key="password"></value>
+        <value type="int" key="port">3306</value>
+        <value type="string" key="schema"></value>
+        <value type="string" key="serverVersion">5.5.44-0+deb7u1</value>
+        <value type="string" key="sslCA"></value>
+        <value type="string" key="sslCert"></value>
+        <value type="string" key="sslCipher"></value>
+        <value type="string" key="sslKey"></value>
+        <value type="int" key="useSSL">1</value>
+        <value type="string" key="userName">mlebeau</value>
+      </value>
+      <value type="string" key="name">Mes bases 103</value>
+    </value>
+  </value>
+</data>

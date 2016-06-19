@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1452678077 source:c:\users\dalan\desktop\cour\projets personnalises\histoire\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"structure.h"
+
+1451983721 c:\users\dalan\desktop\cour\projets personnalises\histoire\structure.h
+

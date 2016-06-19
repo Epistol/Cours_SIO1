@@ -1,0 +1,27 @@
+﻿code;id;adr;cp;ville;pays;codePays
+01UA;01;728 Dorton Pass;;Boromlya;Ukraine;UA
+02FR;02;42668 Gale Center;18013 CEDEX;Bourges;France;FR
+03FR;03;0912 Laurel Avenue;88020 CEDEX;Épinal;France;FR
+04UA;04;83411 Manufacturers Street;;Makiv;Ukraine;UA
+05FR;05;41746 Clemons Park;13155 CEDEX;Tarascon;France;FR
+06PT;06;51 Colorado Plaza;7875-354;Sobral da Adiça;Portugal;PT
+07FR;07;00441 Hauk Crossing;62335 CEDEX;Lens;France;FR
+08MA;08;9437 Basil Place;;Touama;Morocco;MA
+09PT;09;99 Fulton Drive;4700-837;São Paio Merelim;Portugal;PT
+10PT;10;89757 Towne Road;4425-005;Maia;Portugal;PT
+11PT;11;6 Crownhardt Way;4630-025;Currais;Portugal;PT
+12FR;12;351 Ronald Regan Center;07104 CEDEX;Annonay;France;FR
+13FR;13;3 Sycamore Crossing;13382 CEDEX 13;Marseille;France;FR
+14FR;14;42620 Lotheville Street;06928 CEDEX;Sophia Antipolis;France;FR
+15PT;15;86121 Dwight Junction;5445-072;Vila Nova;Portugal;PT
+16FR;16;8708 Elgar Alley;06182 CEDEX 2;Nice;France;FR
+17FR;17;6 Acker Point;83174 CEDEX;Brignoles;France;FR
+18PT;18;124 Fair Oaks Crossing;9630-015;Achada;Portugal;PT
+19UA;19;51725 Browning Avenue;;Lebedyn;Ukraine;UA
+20ES;20;25 Nevada Terrace;33204;Gijon;Spain;ES
+21FR;21;2 Stoughton Center;92715 CEDEX;Colombes;France;FR
+22FR;22;97722 Crest Line Way;27509 CEDEX;Pont-Audemer;France;FR
+23TN;23;31 Elgar Junction;;Al Baq?li?ah;Tunisia;TN
+24PT;24;32098 Fieldstone Alley;1675-007;Pontinha;Portugal;PT
+25PT;25;139 Westport Trail;6230-060;Alpedrinha;Portugal;PT
+26FR;26;711 Sundown Alley;39304 CEDEX;Champagnole;France;FR

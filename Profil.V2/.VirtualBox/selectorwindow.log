@@ -1,0 +1,18 @@
+VirtualBox GUI VM Selector Window 4.3.16 r95972 win.amd64 (Sep  9 2014 17:22:20) release log
+00:00:03.057605 Log opened 2015-09-30T08:10:11.485190800Z
+00:00:03.057605 Build Type: release
+00:00:03.057605 OS Product: Windows 7
+00:00:03.057605 OS Release: 6.1.7601
+00:00:03.057605 OS Service Pack: 1
+00:00:03.057605 DMI Product Name: OptiPlex 9030 AIO
+00:00:03.057605 DMI Product Version: 01
+00:00:03.057605 Host RAM: 16284MB total, 14482MB available
+00:00:03.057605 Executable: C:\Program Files\Oracle\VirtualBox\VirtualBox.exe
+00:00:03.057605 Process ID: 3692
+00:00:03.057605 Package type: WINDOWS_64BITS_GENERIC
+00:00:03.260405 UIMediumEnumerator: Medium-enumeration started...
+00:00:04.602008 UIMediumEnumerator: Medium-enumeration finished!
+00:00:21.620741 UIMediumEnumerator: Machine unregistration event received, ID = bea6385a-1bd6-4409-bf92-28c4570b6660
+00:00:21.620741 UIMediumEnumerator:  Old usage: 6e46df54-44c8-4fcf-a237-4c4cf7dca346, a7d8580c-f5e0-4289-b7fa-21b0f563ca2a
+00:00:21.620741 UIMediumEnumerator: Machine unregistration event processed, ID = bea6385a-1bd6-4409-bf92-28c4570b6660
+00:00:21.807942 UIMediumEnumerator: Medium-enumeration finished!

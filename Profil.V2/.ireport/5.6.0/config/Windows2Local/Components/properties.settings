@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+    <module name="org.netbeans.core/2" spec="3.10.4.1"/>
+    <instanceof class="java.awt.Component"/>
+    <instanceof class="java.awt.Container"/>
+    <instanceof class="java.awt.MenuContainer"/>
+    <instanceof class="java.awt.image.ImageObserver"/>
+    <instanceof class="java.io.Externalizable"/>
+    <instanceof class="java.io.Serializable"/>
+    <instanceof class="java.lang.Object"/>
+    <instanceof class="javax.accessibility.Accessible"/>
+    <instanceof class="javax.swing.JComponent"/>
+    <instanceof class="javax.swing.TransferHandler$HasGetTransferHandler"/>
+    <instanceof class="org.netbeans.core.NbSheet"/>
+    <instanceof class="org.openide.util.HelpCtx$Provider"/>
+    <instanceof class="org.openide.util.Lookup$Provider"/>
+    <instanceof class="org.openide.windows.TopComponent"/>
+    <serialdata class="org.netbeans.core.NbSheet">
+        ACED0005737200226F72672E6E65746265616E732E636F72652E4E625368656574245265706C616365729267FB4865436D64
+        0200007870
+    </serialdata>
+</settings>

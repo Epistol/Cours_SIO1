@@ -1,0 +1,122 @@
+09:10:28 [ERR][      Workbench]: Console redirection failed.
+09:10:28 [INF][      WBContext]: Parsing application arguments.
+09:10:28 [INF][      WBContext]:     C:\Program Files\MySQL\MySQL Workbench 6.3 CE\MySQLWorkbench.exe
+09:10:28 [INF][      Workbench]: Starting up Workbench
+09:10:28 [INF][      Workbench]: Current environment:
+	Command line: "C:\Program Files\MySQL\MySQL Workbench 6.3 CE\MySQLWorkbench.exe" 
+	CurrentDirectory: C:\Program Files\MySQL\MySQL Workbench 6.3 CE
+	HasShutdownStarted: False
+	OSVersion: Microsoft Windows NT 6.1.7601 Service Pack 1
+	SystemDirectory: C:\Windows\system32
+	TickCount: 373949
+	UserInteractive: True
+	Version: 4.0.30319.17929
+	WorkingSet: 32313344
+09:10:28 [INF][      Workbench]: Environment variables:
+	COMPUTERNAME = SIO-3806-04
+	USERPROFILE = C:\Users\mlebeau
+	HOMEPATH = \
+	LOCALAPPDATA = C:\Users\mlebeau\AppData\Local
+	PSModulePath = C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+	PROCESSOR_ARCHITECTURE = AMD64
+	Path = C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\
+	CommonProgramFiles(x86) = C:\Program Files (x86)\Common Files
+	ProgramFiles(x86) = C:\Program Files (x86)
+	PROCESSOR_LEVEL = 6
+	windows_tracing_flags = 3
+	LOGONSERVER = \\WIN2008R2SIO
+	PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY
+	HOMEDRIVE = T:
+	SystemRoot = C:\Windows
+	SESSIONNAME = Console
+	ALLUSERSPROFILE = C:\ProgramData
+	PUBLIC = C:\Users\Public
+	FP_NO_HOST_CHECK = NO
+	APPDATA = C:\Users\mlebeau\AppData\Roaming
+	PROCESSOR_REVISION = 3a09
+	USERNAME = Mlebeau
+	CommonProgramW6432 = C:\Program Files\Common Files
+	CommonProgramFiles = C:\Program Files\Common Files
+	HOMESHARE = \\win2008sio\Users\mlebeau
+	OS = Windows_NT
+	PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 58 Stepping 9, GenuineIntel
+	ComSpec = C:\Windows\system32\cmd.exe
+	SystemDrive = C:
+	TEMP = C:\Users\mlebeau\AppData\Local\Temp
+	VS110COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\Tools\
+	ProgramFiles = C:\Program Files
+	NUMBER_OF_PROCESSORS = 4
+	windows_tracing_logfile = C:\BVTBin\Tests\installpackage\csilogfile.log
+	TMP = C:\Users\mlebeau\AppData\Local\Temp
+	ProgramData = C:\ProgramData
+	ProgramW6432 = C:\Program Files
+	windir = C:\Windows
+	USERDOMAIN = SIO
+	USERDNSDOMAIN = SIO.LOCAL
+09:10:29 [INF][      Workbench]: Current version given by meta info is: 6.3.4
+09:10:29 [INF][      Workbench]: Setting PATH to: C:\Windows\system32;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\
+09:10:29 [INF][ mforms managed]: Initializing mforms wrapper
+09:10:32 [INF][   WBContext UI]: Initializing workbench context UI with these values:
+	base dir: C:\Program Files\MySQL\MySQL Workbench 6.3 CE
+	plugin path: C:\Program Files\MySQL\MySQL Workbench 6.3 CE
+	struct path: 
+	module path: C:\Program Files\MySQL\MySQL Workbench 6.3 CE/modules
+	library path: C:\Program Files\MySQL\MySQL Workbench 6.3 CE
+	user data dir: C:\Users\mlebeau\AppData\Roaming\MySQL\Workbench
+	open at start: 
+	open type: 
+	run at startup: 
+	run type: 
+	Force SW rendering: No
+	Force OpenGL: No
+	quit when done: No
+09:10:32 [INF][      WBContext]: WbContext::init
+09:10:34 [INF][            grt]: Scanning module directory C:\Users\mlebeau\AppData\Roaming\MySQL\Workbench\modules.	
+09:10:34 [INF][            grt]: Scanning module directory ..	
+09:10:34 [INF][            grt]: Scanning module directory C:\Program Files\MySQL\MySQL Workbench 6.3 CE/modules.	
+09:10:43 [INF][            WBA]: Looking for extension modules for WBA...
+09:10:43 [INF][            WBA]: 0 extension modules found
+09:10:43 [WRN][            grt]: C:\Program Files\MySQL\MySQL Workbench 6.3 CE\data/table_templates.xml:21: link 'com.mysql.rdbms.mysql.datatype.timestamp' <object db.SimpleDatatype> key=simpleType could not be resolved
+09:10:43 [WRN][            grt]: C:\Program Files\MySQL\MySQL Workbench 6.3 CE\data/table_templates.xml:106: link 'com.mysql.rdbms.mysql.datatype.varchar' <object db.SimpleDatatype> key=simpleType could not be resolved
+09:10:43 [WRN][            grt]: C:\Program Files\MySQL\MySQL Workbench 6.3 CE\data/table_templates.xml:229: link 'com.mysql.rdbms.mysql.datatype.int' <object db.SimpleDatatype> key=simpleType could not be resolved
+09:10:43 [INF][            grt]: Scanning module directory C:\Program Files\MySQL\MySQL Workbench 6.3 CE.	
+09:10:45 [INF][      WBContext]: System info:
+ 	MySQL Workbench Community (GPL) for Windows version 6.3.4  revision 0 build 828 (64 bit)
+	Configuration Directory: C:\Users\mlebeau\AppData\Roaming\MySQL\Workbench
+	Data Directory: C:\Program Files\MySQL\MySQL Workbench 6.3 CE
+	Cairo Version: 1.10.2
+	OS: Microsoft Windows 7 Professional Service Pack 1
+	CPU: 4x Intel(R) Core(TM) i3-3225 CPU @ 3.30GHz, 7.9 GiB RAM
+	Active video adapter Intel(R) HD Graphics 4000
+	Installed video RAM: -1984 MB
+	Current video mode: 1920 x 1080 x 4294967296 couleurs
+	Used bit depth: 32
+	Driver version: 10.18.10.4176
+	Installed display drivers: igdumdim64.dll,igd10iumd64.dll,igd10iumd64.dll,igdumdim32,igd10iumd32,igd10iumd32
+	Current user language: Français (France)
+
+09:10:45 [INF][      Workbench]: UI is up
+09:10:47 [INF][      Workbench]: Running the application
+09:12:13 [INF][ Canvas backend]: Found OpenGL version for this view: 4.0.0 - Build 10.18.10.4176
+09:13:21 [WRN][               ]: MiniView::set_active_view got nil canvas
+09:17:30 [INF][  TableEditorBE]: Creating stub schema and table mydb.Client for foreign key
+09:23:33 [WRN][  TableEditorBE]: TIME() is not a valid column typeTIME(YYYY-MM-DD) is not a valid column typeTIME(HH:MM:SS) is not a valid column typeOpened connection 'Mes bases 103' to (Debian) version 5.5.44-0+deb7u1
+09:31:53 [INF][     AutoCCache]: Initializing autocompletion cache for Mes_bases_103
+09:31:53 [INF][  column_widths]: Initializing column width cache for Mes_bases_103
+09:31:54 [INF][        WQE.net]: Launching SQL IDE
+09:31:54 [INF][        WQE.net]: SQL IDE UI is ready
+09:32:42 [ERR][SqlEditorSchemaTree]: Exception querying metadata from mysql.proc, will fallback to SHOW PROCEDURE: Exception: SELECT command denied to user 'mlebeau'@'192.168.150.107' for table 'proc'
+09:46:34 [INF][        WQE.net]: Shutting down SQL editor (Mes bases 103)
+09:46:35 [ERR][  GRTDispatcher]: exception in grt execute_task, continuing: Exception: Access denied for user 'mlebeau'@'192.168.150.107' (using password: NO)
+09:46:35 [ERR][  GRTDispatcher]: worker: task 'execute sql queries' has failed with error:.Access denied for user 'mlebeau'@'192.168.150.107' (using password: NO)
+09:46:44 [INF][      SqlEditor]: Opened connection 'Mes bases 103' to (Debian) version 5.5.44-0+deb7u1
+09:46:44 [INF][     AutoCCache]: Initializing autocompletion cache for Mes_bases_103
+09:46:45 [INF][        WQE.net]: Launching SQL IDE
+09:46:45 [ERR][SqlEditorSchemaTree]: Exception querying metadata from mysql.proc, will fallback to SHOW PROCEDURE: Exception: SELECT command denied to user 'mlebeau'@'192.168.150.107' for table 'proc'
+09:46:45 [INF][        WQE.net]: SQL IDE UI is ready
+10:23:14 [INF][  TableEditorBE]: Creating stub schema and table comclisio1_201516_mlebeau.Classe for foreign key
+10:26:13 [INF][  TableEditorBE]: Creating stub schema and table comclisio1_201516_mlebeau.Classe for foreign key
+10:32:01 [INF][        WQE.net]: Shutting down SQL editor (Mes bases 103)
+10:32:03 [INF][      Workbench]: Shutting down Workbench
+10:32:03 [INF][ mforms managed]: Shutting down mforms wrapper
+10:32:03 [INF][      Workbench]: Done

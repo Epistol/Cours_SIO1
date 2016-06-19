@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1444816647 source:c:\users\refiloux\desktop\pointeur\main.c
+	<stdio.h>
+	<string.h>
+	"fonction.h"
+	"fonction.c"
+
+1444816396 c:\users\refiloux\desktop\pointeur\fonction.h
+
+1444816790 c:\users\refiloux\desktop\pointeur\fonction.c
+	"fonction.h"
+	<stdlib.h>
+

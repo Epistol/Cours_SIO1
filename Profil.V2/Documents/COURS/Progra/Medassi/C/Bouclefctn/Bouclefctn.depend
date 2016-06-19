@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1443596088 source:t:\profil.v2\documents\bouclefctn\main.c
+	<stdio.h>
+	<stdlib.h>
+

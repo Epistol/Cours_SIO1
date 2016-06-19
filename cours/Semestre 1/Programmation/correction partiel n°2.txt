@@ -1,0 +1,43 @@
+Correction partiel 2
+
+1.
+
+STRUCTURE E-REPAR
+DEBUT
+   NUM-VEH : entier
+   DATE-DEPOT : chaîne de caractère [8]
+   DATE-FIN : chaîne de caractère [8]
+   COUT-INTERNE : réel
+FIN
+
+2.
+
+REPAR2015 ficheir séquentiel de E-REPAR
+
+tabNbReparation : tableau[1..12] d'entier
+tabTempsMoyen : tableau[1.12] de réels
+mois: entier
+i : entier
+
+DEBUT
+
+OUVRIR REPAR2015 en lecture
+LIRE (REPAR2015, uneReparation)
+TANT QUE (!EOF(REPAR2015)) FAIRE
+   mois <-- MOIS(uneReparation: DATE-DEPOT
+   tabNbReparation[mois]<--tabNbReparation[mois]+1
+   tabCumulTour[mois]<--tabCumulTour[mois].NBJOUR(uneReparation:DATE-DEPOT,uneReparation:DATE-FIN)
+   LIRE(REPAR2015, uneRepartion)
+FIN TANT QUE
+
+POUR i de 1 à 12 FAIRE
+  SI tabNbReparation[i]==0
+    ALORS
+     AFFICHER "Mois:", i,"
+     Temps Moyen = 0"
+    SINON
+     AFFICHER "Mois:",i,"
+     TempsMoyen = "tabCumulJour[i]/tabNbReparation[i]
+  FIN SI
+FIN POUR
+FIN

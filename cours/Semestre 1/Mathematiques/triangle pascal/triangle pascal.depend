@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1450289290 source:c:\users\dalan\desktop\triangle pascal\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1450289292 source:c:\users\dalan\desktop\cour\mathematiques\triangle pascal\main.c
+	<stdio.h>
+	<stdlib.h>
+

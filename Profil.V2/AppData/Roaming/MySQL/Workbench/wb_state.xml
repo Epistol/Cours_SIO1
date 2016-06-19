@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<data grt_format="2.0" document_type="MySQL Workbench Application State" version="1.0.0">
+  <value _ptr_="0000000022EB27E0" type="dict">
+    <value type="string" key="global:last-run-as">6.3.4</value>
+    <value type="int" key="home:WBSampleModelFilesShown">1</value>
+    <value type="int" key="mainform:height">900</value>
+    <value type="int" key="mainform:left">100</value>
+    <value type="int" key="mainform:outputvisible">0</value>
+    <value type="int" key="mainform:top">100</value>
+    <value type="int" key="mainform:width">1200</value>
+    <value type="int" key="mainform:windowstate">2</value>
+    <value type="int" key="query_editor:output_height">200</value>
+    <value type="int" key="query_editor:support_sidebar_width">432</value>
+  </value>
+</data>

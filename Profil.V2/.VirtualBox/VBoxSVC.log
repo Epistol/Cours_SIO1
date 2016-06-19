@@ -1,0 +1,22 @@
+VirtualBox COM Server 4.3.16 r95972 win.amd64 (Sep  9 2014 17:22:20) release log
+00:00:00.062400 main     Log opened 2015-09-30T08:10:10.015012000Z
+00:00:00.062400 main     Build Type: release
+00:00:00.062400 main     OS Product: Windows 7
+00:00:00.062400 main     OS Release: 6.1.7601
+00:00:00.062400 main     OS Service Pack: 1
+00:00:00.093600 main     DMI Product Name: OptiPlex 9030 AIO
+00:00:00.093600 main     DMI Product Version: 01
+00:00:00.093600 main     Host RAM: 16284MB total, 14499MB available
+00:00:00.093600 main     Executable: C:\Program Files\Oracle\VirtualBox\VBoxSVC.exe
+00:00:00.093600 main     Process ID: 3932
+00:00:00.093600 main     Package type: WINDOWS_64BITS_GENERIC
+00:00:00.140400          Loading settings file "C:\Users\mlebeau/.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.452400          usbLibDevCfgDrGet: DeviceIoControl 1 fail winEr (31)
+00:00:00.639601          HostDnsMonitorProxy: Host's DNS information updated:
+00:00:00.639601          DNS server 1: 192.168.151.254
+00:00:00.639601          DNS domain: sio.local
+00:00:00.795601          VDInit finished
+00:00:00.889201          Loading settings file "C:\Users\mlebeau\VirtualBox VMs\mac2\mac2.vbox" with version "1.15-windows"
+00:00:20.045139 Medium::Task ERROR [COM]: aRC=VBOX_E_FILE_ERROR (0x80bb0004) aIID={05f2bbb6-a3a6-4fb9-9b49-6d0dda7142ac} aComponent={Medium} aText={Could not delete the medium storage unit 'C:\Etudiants\mlebeau\mac2.vdi'.
+00:00:20.107539 Medium::Task VD: error VERR_FILE_NOT_FOUND opening image file 'C:\Etudiants\mlebeau\mac2.vdi' (VERR_FILE_NOT_FOUND)}, preserve=false
+00:52:21.829010 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={fafa4e17-1ee2-4905-a10e-fe7c18bf5554} aComponent={VirtualBox} aText={The object is not ready}, preserve=false

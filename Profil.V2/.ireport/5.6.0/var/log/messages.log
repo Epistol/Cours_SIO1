@@ -1,0 +1,909 @@
+-------------------------------------------------------------------------------
+>Log Session: Tuesday, September 22, 2015 11:39:12 AM CEST
+>System Info: 
+  Product Version         = Jaspersoft iReport Designer 5.6.0 
+  Operating System        = Windows 7 version 6.1 running on x86
+  Java; VM; Vendor        = 1.7.0_67; Java HotSpot(TM) Client VM 24.65-b04; Oracle Corporation
+  Runtime                 = Java(TM) SE Runtime Environment 1.7.0_67-b01
+  Java Home               = C:\Program Files (x86)\Java\jre7
+  System Locale; Encoding = fr_FR (ireport); Cp1252
+  Home Directory          = C:\Users\mlebeau
+  Current Directory       = C:\Program Files (x86)\Jaspersoft\iReport-5.6.0
+  User Directory          = C:\Users\mlebeau\.ireport\5.6.0
+  Installation            = C:\Program Files (x86)\Jaspersoft\iReport-5.6.0\ireport
+                            C:\Program Files (x86)\Jaspersoft\iReport-5.6.0\ide10
+                            C:\Program Files (x86)\Jaspersoft\iReport-5.6.0\nb6.5
+                            C:\Program Files (x86)\Jaspersoft\iReport-5.6.0\platform9
+  Boot & Ext. Classpath   = C:\Program Files (x86)\Java\jre7\lib\resources.jar;C:\Program Files (x86)\Java\jre7\lib\rt.jar;C:\Program Files (x86)\Java\jre7\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jre7\lib\jsse.jar;C:\Program Files (x86)\Java\jre7\lib\jce.jar;C:\Program Files (x86)\Java\jre7\lib\charsets.jar;C:\Program Files (x86)\Java\jre7\lib\jfr.jar;C:\Program Files (x86)\Java\jre7\classes;C:\Program Files (x86)\Java\jre7\lib\ext\access-bridge-32.jar;C:\Program Files (x86)\Java\jre7\lib\ext\dnsns.jar;C:\Program Files (x86)\Java\jre7\lib\ext\jaccess.jar;C:\Program Files (x86)\Java\jre7\lib\ext\localedata.jar;C:\Program Files (x86)\Java\jre7\lib\ext\sunec.jar;C:\Program Files (x86)\Java\jre7\lib\ext\sunjce_provider.jar;C:\Program Files (x86)\Java\jre7\lib\ext\sunmscapi.jar;C:\Program Files (x86)\Java\jre7\lib\ext\sunpkcs11.jar;C:\Program Files (x86)\Java\jre7\lib\ext\zipfs.jar
+  Application Classpath   = C:\Program Files (x86)\Jaspersoft\iReport-5.6.0\platform9\lib\boot.jar;C:\Program Files (x86)\Jaspersoft\iReport-5.6.0\platform9\lib\org-openide-modules.jar;C:\Program Files (x86)\Jaspersoft\iReport-5.6.0\platform9\lib\org-openide-util.jar
+  Startup Classpath       = C:\Program Files (x86)\Jaspersoft\iReport-5.6.0\platform9\core\core.jar;C:\Program Files (x86)\Jaspersoft\iReport-5.6.0\platform9\core\org-openide-filesystems.jar;C:\Program Files (x86)\Jaspersoft\iReport-5.6.0\platform9\core\locale\core_de.jar;C:\Program Files (x86)\Jaspersoft\iReport-5.6.0\platform9\core\locale\core_es.jar;C:\Program Files (x86)\Jaspersoft\iReport-5.6.0\platform9\core\locale\core_fr.jar;C:\Program Files (x86)\Jaspersoft\iReport-5.6.0\platform9\core\locale\core_it.jar;C:\Program Files (x86)\Jaspersoft\iReport-5.6.0\platform9\core\locale\core_ja.jar;C:\Program Files (x86)\Jaspersoft\iReport-5.6.0\platform9\core\locale\core_pl.jar;C:\Program Files (x86)\Jaspersoft\iReport-5.6.0\platform9\core\locale\core_pt_BR.jar;C:\Program Files (x86)\Jaspersoft\iReport-5.6.0\platform9\core\locale\core_sq.jar;C:\Program Files (x86)\Jaspersoft\iReport-5.6.0\platform9\core\locale\core_zh_CN.jar;C:\Program Files (x86)\Jaspersoft\iReport-5.6.0\platform9\core\locale\core_zh_TW.jar;C:\Program Files (x86)\Jaspersoft\iReport-5.6.0\platform9\core\locale\org-openide-filesystems_de.jar;C:\Program Files (x86)\Jaspersoft\iReport-5.6.0\platform9\core\locale\org-openide-filesystems_es.jar;C:\Program Files (x86)\Jaspersoft\iReport-5.6.0\platform9\core\locale\org-openide-filesystems_fr.jar;C:\Program Files (x86)\Jaspersoft\iReport-5.6.0\platform9\core\locale\org-openide-filesystems_it.jar;C:\Program Files (x86)\Jaspersoft\iReport-5.6.0\platform9\core\locale\org-openide-filesystems_ja.jar;C:\Program Files (x86)\Jaspersoft\iReport-5.6.0\platform9\core\locale\org-openide-filesystems_pl.jar;C:\Program Files (x86)\Jaspersoft\iReport-5.6.0\platform9\core\locale\org-openide-filesystems_pt_BR.jar;C:\Program Files (x86)\Jaspersoft\iReport-5.6.0\platform9\core\locale\org-openide-filesystems_sq.jar;C:\Program Files (x86)\Jaspersoft\iReport-5.6.0\platform9\core\locale\org-openide-filesystems_zh_CN.jar;C:\Program Files (x86)\Jaspersoft\iReport-5.6.0\platform9\core\locale\org-openide-filesystems_zh_TW.jar;C:\Program Files (x86)\Jaspersoft\iReport-5.6.0\ireport\core\locale\core_ireport.jar;C:\Program Files (x86)\Jaspersoft\iReport-5.6.0\nb6.5\core\locale\core_nb_de.jar;C:\Program Files (x86)\Jaspersoft\iReport-5.6.0\nb6.5\core\locale\core_nb_es.jar;C:\Program Files (x86)\Jaspersoft\iReport-5.6.0\nb6.5\core\locale\core_nb_it.jar;C:\Program Files (x86)\Jaspersoft\iReport-5.6.0\nb6.5\core\locale\core_nb_ja.jar;C:\Program Files (x86)\Jaspersoft\iReport-5.6.0\nb6.5\core\locale\core_nb_pt_BR.jar;C:\Program Files (x86)\Jaspersoft\iReport-5.6.0\nb6.5\core\locale\core_nb_zh_CN.jar;C:\Program Files (x86)\Jaspersoft\iReport-5.6.0\nb6.5\core\locale\core_nb_zh_TW.jar;C:\Program Files (x86)\Jaspersoft\iReport-5.6.0\nb6.5\core\locale\org-netbeans-upgrader_de.jar;C:\Program Files (x86)\Jaspersoft\iReport-5.6.0\nb6.5\core\locale\org-netbeans-upgrader_es.jar;C:\Program Files (x86)\Jaspersoft\iReport-5.6.0\nb6.5\core\locale\org-netbeans-upgrader_it.jar;C:\Program Files (x86)\Jaspersoft\iReport-5.6.0\nb6.5\core\locale\org-netbeans-upgrader_ja.jar;C:\Program Files (x86)\Jaspersoft\iReport-5.6.0\nb6.5\core\locale\org-netbeans-upgrader_pt_BR.jar;C:\Program Files (x86)\Jaspersoft\iReport-5.6.0\nb6.5\core\locale\org-netbeans-upgrader_zh_CN.jar;C:\Program Files (x86)\Jaspersoft\iReport-5.6.0\nb6.5\core\locale\org-netbeans-upgrader_zh_TW.jar
+-------------------------------------------------------------------------------
+AVERTISSEMENT [org.netbeans.core.modules]: had to upgrade dependencies for module com.jaspersoft.ireport: added = [module org.netbeans.modules.options.api/1 > 1.4, module org.netbeans.modules.db/1 > 1.24] removed = [module org.netbeans.modules.db/0-1 > 1.21.0.5, module org.netbeans.modules.options.api/0-1 > 1.5.1]; details: [Major release version of module changed from 0 to 1 to signal stability; update your dependencies]
+AVERTISSEMENT [org.netbeans.core.startup.NbEvents]: The extension C:\Program Files (x86)\Jaspersoft\iReport-5.6.0\ireport\modules\ext\slf4j-api-1.5.8.jar may be multiply loaded by modules: [C:\Program Files (x86)\Jaspersoft\iReport-5.6.0\ireport\modules\com-jaspersoft-ireport.jar, C:\Program Files (x86)\Jaspersoft\iReport-5.6.0\ireport\modules\com-jaspersoft-ireport-hadoop-hive.jar]; see: http://www.netbeans.org/download/dev/javadoc/org-openide-modules/org/openide/modules/doc-files/classpath.html#class-path
+AVERTISSEMENT [org.netbeans.core.startup.NbEvents]: The extension C:\Program Files (x86)\Jaspersoft\iReport-5.6.0\ireport\modules\ext\slf4j-log4j12-1.5.8.jar may be multiply loaded by modules: [C:\Program Files (x86)\Jaspersoft\iReport-5.6.0\ireport\modules\com-jaspersoft-ireport.jar, C:\Program Files (x86)\Jaspersoft\iReport-5.6.0\ireport\modules\com-jaspersoft-ireport-hadoop-hive.jar]; see: http://www.netbeans.org/download/dev/javadoc/org-openide-modules/org/openide/modules/doc-files/classpath.html#class-path
+AVERTISSEMENT [org.netbeans.core.modules]: the module org.netbeans.modules.db uses org.openide.options which is deprecated: Utiliser org.openide.util.NbPreferences à la place.
+AVERTISSEMENT [org.netbeans.core.modules]: the module org.netbeans.modules.xml.text uses org.netbeans.modules.editor.deprecated.pre61completion which is deprecated.
+AVERTISSEMENT [org.netbeans.core.projects.cache]: Inefficient to include an empty layer in a module: jar:file:/C:/Program%20Files%20(x86)/Jaspersoft/iReport-5.6.0/ireport/modules/com-jaspersoft-ireport-mongodb.jar!/com/jaspersoft/ireport/mongodb/layer.xml
+AVERTISSEMENT [org.netbeans.core.projects.cache]: Inefficient to include an empty layer in a module: jar:file:/C:/Program%20Files%20(x86)/Jaspersoft/iReport-5.6.0/ireport/modules/com-jaspersoft-ireport-hadoop-hive.jar!/com/jaspersoft/ireport/hadoop/hive/layer.xml
+com.jaspersoft.ireport.designer.IRURLClassLoader
+com.jaspersoft.ireport.designer.ReportClassLoader
+org.netbeans.ModuleManager$SystemClassLoader
+sun.misc.Launcher$AppClassLoader
+sun.misc.Launcher$ExtClassLoader
+Invoking URL http://ireport.sf.net/lastversion.php?version=5.5.2&nb=1&uuid=fa07deb6-ce92-466c-a505-7241e7eca321&new=1
+Adding JSON data source...
+INFOS [org.netbeans.core.startup.NbEvents]: Activation des modules :
+	org.openide.util [7.18.1.1 1 200903060201]
+	org.openide.modules [7.7.1 200903060201]
+	org.netbeans.swing.plaf [1.8.1 200903060201]
+	org.openide.awt [7.3.1.1 200903060201]
+	org.openide.filesystems [7.13.1.1.1 1 200903060201]
+	org.jdesktop.layout/1 [1.6.1 1.0.3 200903060201]
+	org.netbeans.api.progress/1 [1.12.1.1 1 200903060201]
+	org.openide.dialogs [7.8.1 200903060201]
+	org.openide.nodes [7.7.3.1 200903060201]
+	org.openide.windows [6.24.1 200903060201]
+	org.netbeans.spi.quicksearch [1.0.1 200903060201]
+	org.netbeans.modules.options.api/1 [1.10.2 200903060201]
+	org.netbeans.swing.outline [1.1.1 200903060201]
+	org.openide.explorer [6.16.3 1 200903060201]
+	org.netbeans.modules.editor.mimelookup/1 [1.10.1 200903060201]
+	org.openide.text [6.21.2 200903060201]
+	org.openide.actions [6.8.1.1 200903060201]
+	org.netbeans.modules.queries/1 [1.13.1 200903060201]
+	org.openide.loaders [7.2.3 200903060201]
+	org.netbeans.modules.options.keymap [1.4.1 200903060201]
+	org.netbeans.modules.editor.util/1 [1.25.1 200903060201]
+	org.netbeans.modules.lexer/2 [1.29.1.1 1 200903060201]
+	org.netbeans.modules.editor.settings/1 [1.22.1 200903060201]
+	org.netbeans.modules.editor.lib2/1 [1.8.1.2 2 200903060201]
+	org.netbeans.modules.editor.fold/1 [1.9.1 200903060201]
+	org.netbeans.modules.editor.lib/1 [1.29.2.8.2 8 200903060201]
+	org.netbeans.modules.editor.errorstripe.api/1 [2.5.1.1 1 200903060201]
+	org.netbeans.modules.editor.errorstripe/2 [2.5.1.1.1 1 200903060201]
+	org.netbeans.bootstrap/1 [2.15.1 200903060201]
+	org.netbeans.core.startup/1 [1.14.1.1 200903060201]
+	org.openide.io [1.13.1 200903060201]
+	org.netbeans.core/2 [3.10.4.1 200903060201]
+	org.netbeans.core.ui/1 [1.12.1 200903060201]
+	org.netbeans.core.ide/1 [1.12.1 200903060201]
+	org.netbeans.modules.xml.lexer [1.3.1 200903060201]
+	org.netbeans.modules.classfile/1 [1.21.1 200903060201]
+	org.openide.options [6.9.1 200903060201]
+	org.netbeans.modules.javahelp/1 [2.11.1 200903060201]
+	org.netbeans.modules.db/1 [1.30.3.30 30 200903060201]
+	org.netbeans.modules.db.dataview [1.0.3 200903060201]
+	org.netbeans.core.output2/1 [1.10.1.1 1 200903060201]
+	org.netbeans.modules.db.core [1.7.3 200903060201]
+	org.netbeans.modules.dbapi [1.7.1.30 200903060201]
+	org.openide.execution [1.12.1 200903060201]
+	org.netbeans.modules.db.mysql [0.1.3 2 200903060201]
+	org.netbeans.api.visual [2.17.1 200903060201]
+	org.netbeans.libs.xerces/1 [1.12.1 2.8.0 200903060201]
+	org.openidex.util/3 [3.15.1 200903060201]
+	org.netbeans.swing.tabcontrol [1.13.1 200903060201]
+	org.netbeans.modules.projectapi/1 [1.19.2 200903060201]
+	org.netbeans.modules.editor.indent/2 [1.9.1.8 200903060201]
+	org.netbeans.modules.editor/3 [1.41.1.3.8.2 3 200903060201]
+	org.netbeans.modules.editor.settings.storage/1 [1.18.1 200903060201]
+	org.netbeans.modules.editor.completion/1 [1.13.2 1 200903060201]
+	org.netbeans.modules.editor.bracesmatching/0 [1.6.1 200903060201]
+	org.netbeans.spi.navigator/1 [1.7.1 200903060201]
+	org.netbeans.modules.languages/0 [1.90.1.1 1 200903060201]
+	org.netbeans.modules.sendopts/2 [2.3.1 200903060201]
+	org.netbeans.spi.palette/1 [1.14.1 200903060201]
+	org.netbeans.modules.favorites/1 [1.14.3 200903060201]
+	org.netbeans.core.multiview/1 [1.12.1 200903060201]
+	com.jaspersoft.ireport/1 [1.0 1 140528]
+	com.jaspersoft.ireport.jasperserver [1.0 140528]
+	org.netbeans.modules.progress.ui [1.2.1 200903060201]
+	org.netbeans.modules.projectuiapi/1 [1.31.1.6 6 200903060201]
+	org.netbeans.api.xml/1 [1.16.1 200903060201]
+	org.netbeans.modules.xml.core/2 [1.15.1.4 4 200903060201]
+	org.netbeans.modules.editor.deprecated.pre61settings/0 [1.1.0.1.3.8 1 200903060201]
+	org.netbeans.modules.editor.deprecated.pre61completion/0 [1.0.1 200903060201]
+	org.netbeans.modules.editor.structure/1 [1.17.1.1 1 200903060201]
+	org.netbeans.modules.xml.text/2 [1.16.2.5 5 200903060201]
+	org.netbeans.modules.options.editor/1 [1.10.1 200903060201]
+	org.netbeans.modules.properties/1 [1.25.2 200903060201]
+	org.netbeans.modules.editor.plain.lib/1 [1.6.1 200903060201]
+	org.netbeans.modules.editor.plain/2 [1.7.1 200903060201]
+	org.netbeans.modules.settings/1 [1.15.1 200903060201]
+	org.netbeans.modules.editor.macros/0 [1.2.1.1.8 1 200903060201]
+	org.netbeans.libs.jna/1 [1.1.2 200903060201]
+	org.netbeans.core.windows/2 [2.12.3.1 200903060201]
+	org.netbeans.core.nativeaccess/1 [1.1.2 200903060201]
+	org.netbeans.modules.diff/1 [1.20.1.42.1 42 200903060201]
+	com.jaspersoft.ireport.components [1.0 140528]
+	org.netbeans.modules.autoupdate.services [1.5.2 200903060201]
+	org.netbeans.modules.print [6.5.1 200903060201]
+	org.netbeans.modules.editor.guards/1 [1.2.1 200903060201]
+	com.jaspersoft.ireport.heartbeat [1.0 140528]
+	org.netbeans.modules.autoupdate.ui [1.5.1 200903060201]
+	org.netbeans.modules.masterfs/2 [2.15.2 200903060201]
+	org.netbeans.libs.jsr223/1 [1.8.1 6 200903060201]
+	org.netbeans.modules.templates [1.3.1 200903060201]
+	org.netbeans.modules.core.kit [1.2.4 200903060201]
+	com.jaspersoft.jrx [1.0 140528]
+	org.netbeans.modules.db.metadata.model/0 [0.1.1 200903060201]
+	org.netbeans.modules.db.sql.editor [1.7.1.30 200903060201]
+	com.jaspersoft.ireport.samples [1.0 140528]
+	org.netbeans.modules.editor.mimelookup.impl/1 [1.3.1 200903060201]
+	com.jaspersoft.ireport.addons [1.0 140528]
+	org.netbeans.modules.updatecenters/1 [1.13.1 200903060201]
+	com.jaspersoft.ireport.mongodb [0.9.3 140528]
+	org.netbeans.modules.web.flyingsaucer/1 [1.2.1 1 200903060201]
+	org.netbeans.modules.properties.syntax/1 [1.20.1 200903060201]
+	org.netbeans.core.execution/1 [1.12.1.1 200903060201]
+	org.netbeans.modules.projectui [1.15.3.1.6 1 200903060201]
+	org.netbeans.modules.db.sql.visualeditor/1 [2.3.1.30 200903060201]
+	org.netbeans.modules.extbrowser/1 [1.13.1 200903060201]
+	org.netbeans.modules.defaults/1 [1.5.1 200903060201]
+	org.netbeans.modules.db.drivers [1.2.1 200903060201]
+	com.jaspersoft.ireport.hadoop.hive [1.0.4 140528]
+	org.netbeans.modules.utilities/1 [1.29.1 200903060201]
+	org.netbeans.modules.refactoring.api [1.4.1 200903060201]
+	org.netbeans.modules.languages.refactoring/0 [1.0.1.1 1 200903060201]
+	com.jaspersoft.ireport.designer.standalone [1.0 140528]
+Initializing MongoDb Module
+Initializing Hive Module
+INFOS [org.openide.awt.Mnemonics]: Mapping from a non-Latin character 'À' not found in a localized (branded) version of openide/awt/src/org/openide/awt/Mnemonics.properties - mnemonic cannot be assigned in &À propos de
+INFOS [org.openide.awt.Mnemonics]: Mapping from a non-Latin character 'À' not found in a localized (branded) version of openide/awt/src/org/openide/awt/Mnemonics.properties - mnemonic cannot be assigned in &À propos de
+Diagnostic information
+Input arguments:
+	-Xms256m
+	-Xmx512m
+	-Dorg.netbeans.ProxyClassLoader.level=1000
+	-XX:MaxPermSize=512m
+	-Dapple.laf.useScreenMenuBar=true
+	-Dapple.awt.graphics.UseQuartz=true
+	-Dnetbeans.exception.report.min.level=99999
+	-Djdk.home=C:\Program Files (x86)\Java\jre7
+	-Dnetbeans.home=C:\Program Files (x86)\Jaspersoft\iReport-5.6.0\platform9
+	-Dnetbeans.dirs=C:\Program Files (x86)\Jaspersoft\iReport-5.6.0\ireport;C:\Program Files (x86)\Jaspersoft\iReport-5.6.0\ide10;C:\Program Files (x86)\Jaspersoft\iReport-5.6.0\nb6.5
+	-Dnetbeans.user=C:\Users\mlebeau\.ireport\5.6.0
+	-Dnetbeans.system_http_proxy=192.168.150.254:3128
+	-Dnetbeans.system_http_non_proxy_hosts=localhost;127.0.0.1;192.168.*;<local>
+	-Dsun.awt.keepWorkingSetOnMinimize=true
+Compiler: HotSpot Client Compiler
+Heap memory usage: initial 256,0MB maximum 494,9MB
+Non heap memory usage: initial 12,2MB maximum 544,0MB
+Garbage collector: Copy (Collections=2 Total time spent=0s)
+Garbage collector: MarkSweepCompact (Collections=1 Total time spent=0s)
+Classes: loaded=5012 total loaded=5012 unloaded 0
+INFOS [org.netbeans.core.ui.warmup.DiagnosticTask]: Total memory 4 294 967 295
+INFOS [null]: Mémoire physique totale4 294 967 295
+INFOS [org.openide.awt.Mnemonics]: Mapping from a non-Latin character 'É' not found in a localized (branded) version of openide/awt/src/org/openide/awt/Mnemonics.properties - mnemonic cannot be assigned in &Éditeurs
+INFOS [org.openide.awt.Mnemonics]: Mapping from a non-Latin character 'É' not found in a localized (branded) version of openide/awt/src/org/openide/awt/Mnemonics.properties - mnemonic cannot be assigned in &Éditeurs
+AVERTISSEMENT [org.openide.filesystems.Ordering]: Not all children in Menu/Window/ marked with the position attribute: [LayersAction.shadow], but some are: [FormattingToolsAction.shadow, OutlineAction.shadow, ErrorHandlerAction.shadow, IRConsoleAction.shadow, GenericInspectorAction.shadow, RepositoryAction.shadow, JRViewerAction.shadow, ViewFavoritesTabAction.shadow, StylesLibraryAction.shadow, ViewRuntimeTabAction.shadow, ShowPaletteAction.shadow, org-netbeans-core-actions-GlobalPropertiesAction.shadow, Output, WelcomeAction.shadow, SwitchToRecentDocumentAction.shadow, ProgressListAction.shadow, Separator3.instance, CloseWindowAction.shadow, MaximizeWindowAction.shadow, org-netbeans-core-windows-actions-UndockAction.shadow, Separator4.instance, CloneDocumentAction.shadow, CloseAllDocumentsAction.shadow, CloseAllButThisAction.shadow, DocumentsAction.shadow, Separator5.instance, org-netbeans-core-windows-actions-ResetWindowsAction.shadow]
+AVERTISSEMENT [org.openide.filesystems.Ordering]: Found same position 1000 for both Menu/Tools/com-jaspersoft-ireport-designer-standalone-actions-ImportSettingsAction.shadow and Menu/Tools/org-netbeans-modules-favorites-templates-TemplatesAction.instance
+AVERTISSEMENT [org.openide.loaders.InstanceDataObject]: instanceClass was a com.jaspersoft.ireport.samples.OpenSampleAction
+AVERTISSEMENT [org.openide.loaders.InstanceDataObject]: instanceClass was a com.jaspersoft.ireport.samples.OpenSampleAction
+AVERTISSEMENT [org.openide.loaders.InstanceDataObject]: instanceClass was a com.jaspersoft.ireport.samples.OpenSampleAction
+AVERTISSEMENT [org.openide.loaders.InstanceDataObject]: instanceClass was a com.jaspersoft.ireport.samples.OpenSampleAction
+AVERTISSEMENT [org.openide.loaders.InstanceDataObject]: instanceClass was a com.jaspersoft.ireport.samples.OpenSampleAction
+AVERTISSEMENT [org.openide.loaders.InstanceDataObject]: instanceClass was a com.jaspersoft.ireport.samples.OpenSampleAction
+AVERTISSEMENT [org.openide.loaders.InstanceDataObject]: instanceClass was a com.jaspersoft.ireport.samples.OpenSampleAction
+INFOS [org.openide.awt.Mnemonics]: Mapping from a non-Latin character 'À' not found in a localized (branded) version of openide/awt/src/org/openide/awt/Mnemonics.properties - mnemonic cannot be assigned in &À propos de
+Action Basic_report created!
+Action Elements created!
+Action Parameters_and_Variables created!
+Action Groups created!
+Action Fonts created!
+Action Charts created!
+Action Subreports created!
+Action Crosstabs created!
+INFOS [org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogCache]: Processing URL: http://updates.netbeans.org/netbeans/updates/6.5.1/uc/final/stable/catalog.xml.gz?unique=0c8c9255d-ad00-4094-a304-18ac28d19ad5_c390d0fa-df43-4e32-be3a-cbc72e250c94
+INFOS [org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogCache]: Processing URL: http://plugins.netbeans.org/nbpluginportal/updates/6.5/catalog.xml.gz
+INFOS [org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogCache]: Processing URL: http://updates.netbeans.org/netbeans/updates/6.5.1/uc/final/beta/catalog.xml.gz?unique=0c8c9255d-ad00-4094-a304-18ac28d19ad5_c390d0fa-df43-4e32-be3a-cbc72e250c94
+INFOS [org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogCache]: Processing URL: http://updates.netbeans.org/netbeans/updates/6.5.1/uc/final/thirdparty/catalog.xml.gz?unique=0c8c9255d-ad00-4094-a304-18ac28d19ad5_c390d0fa-df43-4e32-be3a-cbc72e250c94
+INFOS [org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogParser]: Unpaired license 1C633B2F without any module.
+INFOS [org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogParser]: Unpaired license 8E1C1C33 without any module.
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at com.jaspersoft.ireport.heartbeat.Installer.run(Installer.java:98)
+	at java.lang.Thread.run(Unknown Source)
+log4j:WARN No appenders could be found for logger (net.sf.jasperreports.engine.xml.JRXmlDigesterFactory).
+log4j:WARN Please initialize the log4j system properly.
+java.lang.Exception: 
+	at com.jaspersoft.ireport.designer.connection.JDBCConnection.test(JDBCConnection.java:450)
+	at com.jaspersoft.ireport.designer.connection.gui.ConnectionDialog.jButtonTestActionPerformed(ConnectionDialog.java:335)
+	at com.jaspersoft.ireport.designer.connection.gui.ConnectionDialog.access$300(ConnectionDialog.java:43)
+	at com.jaspersoft.ireport.designer.connection.gui.ConnectionDialog$4.actionPerformed(ConnectionDialog.java:290)
+	at javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+	at javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+	at java.awt.Component.processMouseEvent(Unknown Source)
+	at javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.awt.Component.processEvent(Unknown Source)
+	at java.awt.Container.processEvent(Unknown Source)
+	at java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$200(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at org.netbeans.core.TimableEventQueue.dispatchEvent(TimableEventQueue.java:104)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.WaitDispatchSupport$2.run(Unknown Source)
+	at java.awt.WaitDispatchSupport$4.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.awt.WaitDispatchSupport.enter(Unknown Source)
+	at java.awt.Dialog.show(Unknown Source)
+	at java.awt.Component.show(Unknown Source)
+	at java.awt.Component.setVisible(Unknown Source)
+	at java.awt.Window.setVisible(Unknown Source)
+	at java.awt.Dialog.setVisible(Unknown Source)
+	at com.jaspersoft.ireport.designer.wizards.ConnectionSelectionVisualPanel.jButton1ActionPerformed(ConnectionSelectionVisualPanel.java:318)
+	at com.jaspersoft.ireport.designer.wizards.ConnectionSelectionVisualPanel.access$400(ConnectionSelectionVisualPanel.java:41)
+	at com.jaspersoft.ireport.designer.wizards.ConnectionSelectionVisualPanel$6.actionPerformed(ConnectionSelectionVisualPanel.java:226)
+	at javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+	at javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+	at java.awt.Component.processMouseEvent(Unknown Source)
+	at javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.awt.Component.processEvent(Unknown Source)
+	at java.awt.Container.processEvent(Unknown Source)
+	at java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$200(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at org.netbeans.core.TimableEventQueue.dispatchEvent(TimableEventQueue.java:104)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.WaitDispatchSupport$2.run(Unknown Source)
+	at java.awt.WaitDispatchSupport$4.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.awt.WaitDispatchSupport.enter(Unknown Source)
+	at java.awt.Dialog.show(Unknown Source)
+	at org.netbeans.core.windows.services.NbPresenter.superShow(NbPresenter.java:867)
+	at org.netbeans.core.windows.services.NbPresenter.doShow(NbPresenter.java:901)
+	at org.netbeans.core.windows.services.NbPresenter.run(NbPresenter.java:889)
+	at org.netbeans.core.windows.services.NbPresenter.run(NbPresenter.java:109)
+	at org.openide.util.Mutex.doEventAccess(Mutex.java:1355)
+	at org.openide.util.Mutex.readAccess(Mutex.java:268)
+	at org.netbeans.core.windows.services.NbPresenter.show(NbPresenter.java:874)
+	at java.awt.Component.show(Unknown Source)
+	at java.awt.Component.setVisible(Unknown Source)
+	at java.awt.Window.setVisible(Unknown Source)
+	at java.awt.Dialog.setVisible(Unknown Source)
+	at com.jaspersoft.ireport.designer.templates.TemplatesFrame.runTemplateWizard(TemplatesFrame.java:465)
+	at com.jaspersoft.ireport.designer.templates.ReportTemplateItemAction.performAction(ReportTemplateItemAction.java:50)
+	at com.jaspersoft.ireport.designer.templates.TemplatesFrame.jButtonLaunchWizardActionPerformed(TemplatesFrame.java:328)
+	at com.jaspersoft.ireport.designer.templates.TemplatesFrame.access$700(TemplatesFrame.java:55)
+	at com.jaspersoft.ireport.designer.templates.TemplatesFrame$10.actionPerformed(TemplatesFrame.java:244)
+	at javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+	at javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+	at java.awt.Component.processMouseEvent(Unknown Source)
+	at javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.awt.Component.processEvent(Unknown Source)
+	at java.awt.Container.processEvent(Unknown Source)
+	at java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$200(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at org.netbeans.core.TimableEventQueue.dispatchEvent(TimableEventQueue.java:104)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.WaitDispatchSupport$2.run(Unknown Source)
+	at java.awt.WaitDispatchSupport$4.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.awt.WaitDispatchSupport.enter(Unknown Source)
+	at java.awt.Dialog.show(Unknown Source)
+	at java.awt.Component.show(Unknown Source)
+	at java.awt.Component.setVisible(Unknown Source)
+	at java.awt.Window.setVisible(Unknown Source)
+	at java.awt.Dialog.setVisible(Unknown Source)
+	at com.jaspersoft.ireport.designer.templates.TemplatesFrame.setVisible(TemplatesFrame.java:577)
+	at com.jaspersoft.ireport.designer.welcome.QuickStartPanel.jButton2ActionPerformed(QuickStartPanel.java:331)
+	at com.jaspersoft.ireport.designer.welcome.QuickStartPanel.access$500(QuickStartPanel.java:50)
+	at com.jaspersoft.ireport.designer.welcome.QuickStartPanel$4.actionPerformed(QuickStartPanel.java:167)
+	at javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+	at javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+	at java.awt.AWTEventMulticaster.mouseReleased(Unknown Source)
+	at java.awt.Component.processMouseEvent(Unknown Source)
+	at javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.awt.Component.processEvent(Unknown Source)
+	at java.awt.Container.processEvent(Unknown Source)
+	at java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$200(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at org.netbeans.core.TimableEventQueue.dispatchEvent(TimableEventQueue.java:104)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+Can't find the translation for key = querybuilder.action.saveDiagramAsImage: using default (save as image)
+Can't find the translation for key = querybuilder.action.saveDiagramAsImage: using default (save as image)
+Can't find the translation for key = querybuilder.action.saveDiagramAsImage: using default (save as image)
+Can't find the translation for key = querybuilder.message.loading.relations: using default (check {0}'s relations )
+Can't find the translation for key = querybuilder.message.loading.relations: using default (check {0}'s relations )
+Can't find the translation for key = querybuilder.message.loading.relations: using default (check {0}'s relations )
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: Instancing the report generator
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: sun.reflect.Reflection.getCallerClass(Native Method)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.lang.Class.getClassLoader(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.util.logging.Logger.demandLogger(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.util.logging.Logger.getLogger(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: com.jaspersoft.ireport.designer.utils.Misc.log(Misc.java:221)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: com.jaspersoft.ireport.designer.wizards.NewJrxmlWizardIterator.instantiate(NewJrxmlWizardIterator.java:185)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: org.openide.loaders.TemplateWizard.handleInstantiate(TemplateWizard.java:588)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: org.openide.loaders.TemplateWizard.instantiateNewObjects(TemplateWizard.java:409)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: org.openide.loaders.TemplateWizardIterImpl.instantiate(TemplateWizardIterImpl.java:248)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: org.openide.loaders.TemplateWizardIteratorWrapper.instantiate(TemplateWizardIteratorWrapper.java:161)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: org.openide.WizardDescriptor.callInstantiateOpen(WizardDescriptor.java:1478)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: org.openide.WizardDescriptor.callInstantiate(WizardDescriptor.java:1432)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: org.openide.WizardDescriptor.access$1700(WizardDescriptor.java:120)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: org.openide.WizardDescriptor$Listener$2$1.run(WizardDescriptor.java:1999)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: org.openide.WizardDescriptor$Listener$2.run(WizardDescriptor.java:2048)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: org.openide.WizardDescriptor.lazyValidate(WizardDescriptor.java:1407)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: org.openide.WizardDescriptor.access$1300(WizardDescriptor.java:120)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: org.openide.WizardDescriptor$Listener.actionPerformed(WizardDescriptor.java:2055)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.lang.reflect.Method.invoke(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: org.openide.util.WeakListenerImpl$ProxyListener.invoke(WeakListenerImpl.java:449)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: com.sun.proxy.$Proxy9.actionPerformed(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.Component.processMouseEvent(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: javax.swing.JComponent.processMouseEvent(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.Component.processEvent(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.Container.processEvent(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.Component.dispatchEventImpl(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.Container.dispatchEventImpl(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.Component.dispatchEvent(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.Container.dispatchEventImpl(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.Window.dispatchEventImpl(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.Component.dispatchEvent(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.EventQueue.access$200(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.EventQueue$3.run(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.EventQueue$3.run(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.security.AccessController.doPrivileged(Native Method)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.EventQueue$4.run(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.EventQueue$4.run(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.security.AccessController.doPrivileged(Native Method)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.EventQueue.dispatchEvent(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: org.netbeans.core.TimableEventQueue.dispatchEvent(TimableEventQueue.java:104)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: Report generator instanced
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: Inside generateReport
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.WaitDispatchSupport$2.run(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: Generating design ...
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.WaitDispatchSupport$4.run(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.security.AccessController.doPrivileged(Native Method)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.WaitDispatchSupport.enter(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.Dialog.show(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: org.netbeans.core.windows.services.NbPresenter.superShow(NbPresenter.java:867)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: org.netbeans.core.windows.services.NbPresenter.doShow(NbPresenter.java:901)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: org.netbeans.core.windows.services.NbPresenter.run(NbPresenter.java:889)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: org.netbeans.core.windows.services.NbPresenter.run(NbPresenter.java:109)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: org.openide.util.Mutex.doEventAccess(Mutex.java:1355)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: org.openide.util.Mutex.readAccess(Mutex.java:268)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: org.netbeans.core.windows.services.NbPresenter.show(NbPresenter.java:874)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.Component.show(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.Component.setVisible(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.Window.setVisible(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.Dialog.setVisible(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: com.jaspersoft.ireport.designer.templates.TemplatesFrame.runTemplateWizard(TemplatesFrame.java:465)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: com.jaspersoft.ireport.designer.templates.ReportTemplateItemAction.performAction(ReportTemplateItemAction.java:50)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: com.jaspersoft.ireport.designer.templates.TemplatesFrame.jButtonLaunchWizardActionPerformed(TemplatesFrame.java:328)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: com.jaspersoft.ireport.designer.templates.TemplatesFrame.access$700(TemplatesFrame.java:55)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: com.jaspersoft.ireport.designer.templates.TemplatesFrame$10.actionPerformed(TemplatesFrame.java:244)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.Component.processMouseEvent(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: javax.swing.JComponent.processMouseEvent(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.Component.processEvent(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.Container.processEvent(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.Component.dispatchEventImpl(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.Container.dispatchEventImpl(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.Component.dispatchEvent(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.Container.dispatchEventImpl(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.Window.dispatchEventImpl(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.Component.dispatchEvent(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.EventQueue.access$200(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.EventQueue$3.run(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.EventQueue$3.run(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.security.AccessController.doPrivileged(Native Method)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.EventQueue$4.run(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.EventQueue$4.run(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.security.AccessController.doPrivileged(Native Method)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.EventQueue.dispatchEvent(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: org.netbeans.core.TimableEventQueue.dispatchEvent(TimableEventQueue.java:104)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.WaitDispatchSupport$2.run(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.WaitDispatchSupport$4.run(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.security.AccessController.doPrivileged(Native Method)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.WaitDispatchSupport.enter(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.Dialog.show(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.Component.show(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.Component.setVisible(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.Window.setVisible(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.Dialog.setVisible(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: com.jaspersoft.ireport.designer.templates.TemplatesFrame.setVisible(TemplatesFrame.java:577)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: com.jaspersoft.ireport.designer.welcome.QuickStartPanel.jButton2ActionPerformed(QuickStartPanel.java:331)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: com.jaspersoft.ireport.designer.welcome.QuickStartPanel.access$500(QuickStartPanel.java:50)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: com.jaspersoft.ireport.designer.welcome.QuickStartPanel$4.actionPerformed(QuickStartPanel.java:167)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.AWTEventMulticaster.mouseReleased(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.Component.processMouseEvent(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: javax.swing.JComponent.processMouseEvent(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.Component.processEvent(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.Container.processEvent(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.Component.dispatchEventImpl(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.Container.dispatchEventImpl(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.Component.dispatchEvent(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.Container.dispatchEventImpl(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.Window.dispatchEventImpl(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.Component.dispatchEvent(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.EventQueue.access$200(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.EventQueue$3.run(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.EventQueue$3.run(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.security.AccessController.doPrivileged(Native Method)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.EventQueue$4.run(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.EventQueue$4.run(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.security.AccessController.doPrivileged(Native Method)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.EventQueue.dispatchEvent(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: org.netbeans.core.TimableEventQueue.dispatchEvent(TimableEventQueue.java:104)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.EventDispatchThread.run(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: Generating design OK ...
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: get the file ...
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: The file store the generated report is C:\Users\mlebeau\report1.jrxml
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: Report generated
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: Opening report
+Charset used: UTF-8!!!!
+AVERTISSEMENT [org.netbeans.core.multiview.MultiViewTopComponent]: The MultiviewDescription instance class com.jaspersoft.ireport.designer.JrxmlTextView is not serializable. Cannot persist TopComponent.
+Charset used: UTF-8!!!!
+Charset used: UTF-8!!!!
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: Report opened...
+Missing resouce key: language.sql
+Missing resouce key: language.SQL
+Missing resouce key: language.xPath
+Missing resouce key: language.XPath
+Missing resouce key: language.mdx
+Missing resouce key: language.MDX
+Missing resouce key: language.ejbql
+Missing resouce key: language.EJBQL
+Missing resouce key: language.xmla-mdx
+Missing resouce key: language.xpath2
+Missing resouce key: language.json
+Missing resouce key: language.JSON
+Missing resouce key: language.plsql
+Missing resouce key: language.MongoDbQuery
+Missing resouce key: language.HiveQL
+Missing resouce key: language.sql
+Missing resouce key: language.SQL
+Missing resouce key: language.xPath
+Missing resouce key: language.XPath
+Missing resouce key: language.mdx
+Missing resouce key: language.MDX
+Missing resouce key: language.ejbql
+Missing resouce key: language.EJBQL
+Missing resouce key: language.xmla-mdx
+Missing resouce key: language.xpath2
+Missing resouce key: language.json
+Missing resouce key: language.JSON
+Missing resouce key: language.plsql
+Missing resouce key: language.MongoDbQuery
+Missing resouce key: language.HiveQL
+<font face="SansSerif" size="3" color="#000000"><img align="right" src="jar:file:/C:/Program%20Files%20(x86)/Jaspersoft/iReport-5.6.0/ireport/modules/com-jaspersoft-ireport.jar!/com/jaspersoft/ireport/designer/compiler/comp1_mini.jpg"> &nbsp;Compiling to file... C:\Users\mlebeau\report1.jasper</font>
+
+<font face="SansSerif"  size="3" color="#0000CC"><b>Compilation running time: 570!</b></font><hr>
+<font face="SansSerif" size="3" color="#000000"><img align="right" src="jar:file:/C:/Program%20Files%20(x86)/Jaspersoft/iReport-5.6.0/ireport/modules/com-jaspersoft-ireport.jar!/com/jaspersoft/ireport/designer/compiler/rundb1_mini.jpg"> &nbsp;Filling report...</font>
+<font face="SansSerif" size="3" color="#000000"><img align="right" src="jar:file:/C:/Program%20Files%20(x86)/Jaspersoft/iReport-5.6.0/ireport/modules/com-jaspersoft-ireport.jar!/com/jaspersoft/ireport/designer/compiler/world.png"> &nbsp;Locale: <b>français (France)</b></font>
+<font face="SansSerif" size="3" color="#000000"><img align="right" src="jar:file:/C:/Program%20Files%20(x86)/Jaspersoft/iReport-5.6.0/ireport/modules/com-jaspersoft-ireport.jar!/com/jaspersoft/ireport/designer/compiler/timezone.png"> &nbsp;Time zone: <b>Default</b></font>
+
+<font face="SansSerif"  size="3" color="#0000CC"><b>Report fill running time: 450!</b> (pages generated: 5)</font><hr>
+
+<font face="SansSerif"  size="3"><img align="right" src="jar:file:/C:/Program%20Files%20(x86)/Jaspersoft/iReport-5.6.0/ireport/modules/com-jaspersoft-ireport.jar!/com/jaspersoft/ireport/designer/compiler/printer_mini.png"> &nbsp;Exporting HTML to file...  C:\Users\mlebeau\report1.html!</font>
+
+<font face="SansSerif"  size="3" color="#0000CC"><b>Export running time: 140!</b></font><hr>
+<font face="SansSerif"  size="3">No external viewer specified for this type of print. Set it in the options frame!</font>
+INFOS [org.openide.awt.Mnemonics]: Mapping from a non-Latin character 'À' not found in a localized (branded) version of openide/awt/src/org/openide/awt/Mnemonics.properties - mnemonic cannot be assigned in &À propos de
+Missing resouce key: language.sql
+Missing resouce key: language.SQL
+Missing resouce key: language.xPath
+Missing resouce key: language.XPath
+Missing resouce key: language.mdx
+Missing resouce key: language.MDX
+Missing resouce key: language.ejbql
+Missing resouce key: language.EJBQL
+Missing resouce key: language.xmla-mdx
+Missing resouce key: language.xpath2
+Missing resouce key: language.json
+Missing resouce key: language.JSON
+Missing resouce key: language.plsql
+Missing resouce key: language.MongoDbQuery
+Missing resouce key: language.HiveQL
+Charset used: UTF-8!!!!
+Charset used: UTF-8!!!!
+<font face="SansSerif" size="3" color="#000000"><img align="right" src="jar:file:/C:/Program%20Files%20(x86)/Jaspersoft/iReport-5.6.0/ireport/modules/com-jaspersoft-ireport.jar!/com/jaspersoft/ireport/designer/compiler/comp1_mini.jpg"> &nbsp;Compiling to file... C:\Users\mlebeau\report1.jasper</font>
+
+<font face="SansSerif"  size="3" color="#0000CC"><b>Compilation running time: 190!</b></font><hr>
+<font face="SansSerif" size="3" color="#000000"><img align="right" src="jar:file:/C:/Program%20Files%20(x86)/Jaspersoft/iReport-5.6.0/ireport/modules/com-jaspersoft-ireport.jar!/com/jaspersoft/ireport/designer/compiler/rundb1_mini.jpg"> &nbsp;Filling report...</font>
+<font face="SansSerif" size="3" color="#000000"><img align="right" src="jar:file:/C:/Program%20Files%20(x86)/Jaspersoft/iReport-5.6.0/ireport/modules/com-jaspersoft-ireport.jar!/com/jaspersoft/ireport/designer/compiler/world.png"> &nbsp;Locale: <b>français (France)</b></font>
+<font face="SansSerif" size="3" color="#000000"><img align="right" src="jar:file:/C:/Program%20Files%20(x86)/Jaspersoft/iReport-5.6.0/ireport/modules/com-jaspersoft-ireport.jar!/com/jaspersoft/ireport/designer/compiler/timezone.png"> &nbsp;Time zone: <b>Default</b></font>
+
+<font face="SansSerif"  size="3" color="#0000CC"><b>Report fill running time: 50!</b> (pages generated: 5)</font><hr>
+
+<font face="SansSerif"  size="3"><img align="right" src="jar:file:/C:/Program%20Files%20(x86)/Jaspersoft/iReport-5.6.0/ireport/modules/com-jaspersoft-ireport.jar!/com/jaspersoft/ireport/designer/compiler/printer_mini.png"> &nbsp;Exporting PDF (using iText) to file...  C:\Users\mlebeau\report1.pdf!</font>
+
+<font face="SansSerif"  size="3" color="#0000CC"><b>Export running time: 280!</b></font><hr>
+<font face="SansSerif"  size="3">Executing: rundll32 SHELL32.DLL,ShellExec_RunDLL "C:\Users\mlebeau\report1.pdf"</font>
+AVERTISSEMENT [org.netbeans.core.multiview.MultiViewTopComponent]: The MultiviewDescription instance class com.jaspersoft.ireport.designer.JrxmlTextView is not serializable. Cannot persist TopComponent.
+Can't find the translation for key = querybuilder.action.saveDiagramAsImage: using default (save as image)
+Can't find the translation for key = querybuilder.message.loading.relations: using default (check {0}'s relations )
+Can't find the translation for key = querybuilder.message.loading.relations: using default (check {0}'s relations )
+Can't find the translation for key = querybuilder.message.loading.relations: using default (check {0}'s relations )
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: Instancing the report generator
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: Report generator instanced
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: Inside generateReport
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: Generating design ...
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.lang.String.<init>(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.lang.StringBuilder.toString(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.util.logging.LogManager$LoggerContext.processParentHandlers(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.util.logging.LogManager$LoggerContext.addLocalLogger(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.util.logging.LogManager$LoggerContext.addLocalLogger(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.util.logging.LogManager.addLogger(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.util.logging.LogManager.demandLogger(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.util.logging.Logger.demandLogger(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.util.logging.Logger.getLogger(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: com.jaspersoft.ireport.designer.utils.Misc.log(Misc.java:220)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: com.jaspersoft.ireport.designer.wizards.NewJrxmlWizardIterator.instantiate(NewJrxmlWizardIterator.java:185)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: org.openide.loaders.TemplateWizard.handleInstantiate(TemplateWizard.java:588)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: org.openide.loaders.TemplateWizard.instantiateNewObjects(TemplateWizard.java:409)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: org.openide.loaders.TemplateWizardIterImpl.instantiate(TemplateWizardIterImpl.java:248)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: org.openide.loaders.TemplateWizardIteratorWrapper.instantiate(TemplateWizardIteratorWrapper.java:161)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: org.openide.WizardDescriptor.callInstantiateOpen(WizardDescriptor.java:1478)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: org.openide.WizardDescriptor.callInstantiate(WizardDescriptor.java:1432)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: org.openide.WizardDescriptor.access$1700(WizardDescriptor.java:120)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: org.openide.WizardDescriptor$Listener$2$1.run(WizardDescriptor.java:1999)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: org.openide.WizardDescriptor$Listener$2.run(WizardDescriptor.java:2048)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: org.openide.WizardDescriptor.lazyValidate(WizardDescriptor.java:1407)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: org.openide.WizardDescriptor.access$1300(WizardDescriptor.java:120)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: org.openide.WizardDescriptor$Listener.actionPerformed(WizardDescriptor.java:2055)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.lang.reflect.Method.invoke(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: org.openide.util.WeakListenerImpl$ProxyListener.invoke(WeakListenerImpl.java:449)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: com.sun.proxy.$Proxy9.actionPerformed(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.Component.processMouseEvent(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: javax.swing.JComponent.processMouseEvent(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.Component.processEvent(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.Container.processEvent(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.Component.dispatchEventImpl(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.Container.dispatchEventImpl(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.Component.dispatchEvent(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.Container.dispatchEventImpl(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.Window.dispatchEventImpl(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.Component.dispatchEvent(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.EventQueue.access$200(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.EventQueue$3.run(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.EventQueue$3.run(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.security.AccessController.doPrivileged(Native Method)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.EventQueue$4.run(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.EventQueue$4.run(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.security.AccessController.doPrivileged(Native Method)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.EventQueue.dispatchEvent(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: org.netbeans.core.TimableEventQueue.dispatchEvent(TimableEventQueue.java:104)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.WaitDispatchSupport$2.run(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.WaitDispatchSupport$4.run(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.security.AccessController.doPrivileged(Native Method)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.WaitDispatchSupport.enter(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.Dialog.show(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: org.netbeans.core.windows.services.NbPresenter.superShow(NbPresenter.java:867)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: org.netbeans.core.windows.services.NbPresenter.doShow(NbPresenter.java:901)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: org.netbeans.core.windows.services.NbPresenter.run(NbPresenter.java:889)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: org.netbeans.core.windows.services.NbPresenter.run(NbPresenter.java:109)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: org.openide.util.Mutex.doEventAccess(Mutex.java:1355)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: org.openide.util.Mutex.readAccess(Mutex.java:268)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: org.netbeans.core.windows.services.NbPresenter.show(NbPresenter.java:874)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.Component.show(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.Component.setVisible(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.Window.setVisible(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.Dialog.setVisible(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: com.jaspersoft.ireport.designer.templates.TemplatesFrame.runTemplateWizard(TemplatesFrame.java:465)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: com.jaspersoft.ireport.designer.templates.ReportTemplateItemAction.performAction(ReportTemplateItemAction.java:50)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: com.jaspersoft.ireport.designer.templates.TemplatesFrame.jButtonLaunchWizardActionPerformed(TemplatesFrame.java:328)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: com.jaspersoft.ireport.designer.templates.TemplatesFrame.access$700(TemplatesFrame.java:55)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: com.jaspersoft.ireport.designer.templates.TemplatesFrame$10.actionPerformed(TemplatesFrame.java:244)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.Component.processMouseEvent(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: javax.swing.JComponent.processMouseEvent(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.Component.processEvent(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.Container.processEvent(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.Component.dispatchEventImpl(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.Container.dispatchEventImpl(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.Component.dispatchEvent(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.Container.dispatchEventImpl(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.Window.dispatchEventImpl(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.Component.dispatchEvent(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.EventQueue.access$200(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.EventQueue$3.run(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.EventQueue$3.run(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.security.AccessController.doPrivileged(Native Method)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.EventQueue$4.run(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.EventQueue$4.run(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.security.AccessController.doPrivileged(Native Method)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.EventQueue.dispatchEvent(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: org.netbeans.core.TimableEventQueue.dispatchEvent(TimableEventQueue.java:104)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.WaitDispatchSupport$2.run(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.WaitDispatchSupport$4.run(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.security.AccessController.doPrivileged(Native Method)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.WaitDispatchSupport.enter(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.Dialog.show(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.Component.show(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.Component.setVisible(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.Window.setVisible(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.Dialog.setVisible(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: com.jaspersoft.ireport.designer.templates.TemplatesFrame.setVisible(TemplatesFrame.java:577)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: com.jaspersoft.ireport.designer.welcome.QuickStartPanel.jButton2ActionPerformed(QuickStartPanel.java:331)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: com.jaspersoft.ireport.designer.welcome.QuickStartPanel.access$500(QuickStartPanel.java:50)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: com.jaspersoft.ireport.designer.welcome.QuickStartPanel$4.actionPerformed(QuickStartPanel.java:167)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.AWTEventMulticaster.mouseReleased(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.Component.processMouseEvent(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: javax.swing.JComponent.processMouseEvent(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.Component.processEvent(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.Container.processEvent(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.Component.dispatchEventImpl(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.Container.dispatchEventImpl(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.Component.dispatchEvent(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.Container.dispatchEventImpl(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.Window.dispatchEventImpl(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.Component.dispatchEvent(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.EventQueue.access$200(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.EventQueue$3.run(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.EventQueue$3.run(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.security.AccessController.doPrivileged(Native Method)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.EventQueue$4.run(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.EventQueue$4.run(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.security.AccessController.doPrivileged(Native Method)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.EventQueue.dispatchEvent(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: org.netbeans.core.TimableEventQueue.dispatchEvent(TimableEventQueue.java:104)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: java.awt.EventDispatchThread.run(Unknown Source)
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: Generating design OK ...
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: get the file ...
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: The file store the generated report is C:\Users\mlebeau\report2.jrxml
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: Report generated
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: Opening report
+Charset used: UTF-8!!!!
+AVERTISSEMENT [org.netbeans.core.multiview.MultiViewTopComponent]: The MultiviewDescription instance class com.jaspersoft.ireport.designer.JrxmlTextView is not serializable. Cannot persist TopComponent.
+Charset used: UTF-8!!!!
+INFOS [com.jaspersoft.ireport.designer.utils.Misc]: Report opened...
+Charset used: UTF-8!!!!
+Missing resouce key: language.sql
+Missing resouce key: language.SQL
+Missing resouce key: language.xPath
+Missing resouce key: language.XPath
+Missing resouce key: language.mdx
+Missing resouce key: language.MDX
+Missing resouce key: language.ejbql
+Missing resouce key: language.EJBQL
+Missing resouce key: language.xmla-mdx
+Missing resouce key: language.xpath2
+Missing resouce key: language.json
+Missing resouce key: language.JSON
+Missing resouce key: language.plsql
+Missing resouce key: language.MongoDbQuery
+Missing resouce key: language.HiveQL
+<font face="SansSerif" size="3" color="#000000"><img align="right" src="jar:file:/C:/Program%20Files%20(x86)/Jaspersoft/iReport-5.6.0/ireport/modules/com-jaspersoft-ireport.jar!/com/jaspersoft/ireport/designer/compiler/comp1_mini.jpg"> &nbsp;Compiling to file... C:\Users\mlebeau\report2.jasper</font>
+
+<font face="SansSerif"  size="3" color="#0000CC"><b>Compilation running time: 180!</b></font><hr>
+<font face="SansSerif" size="3" color="#000000"><img align="right" src="jar:file:/C:/Program%20Files%20(x86)/Jaspersoft/iReport-5.6.0/ireport/modules/com-jaspersoft-ireport.jar!/com/jaspersoft/ireport/designer/compiler/rundb1_mini.jpg"> &nbsp;Filling report...</font>
+<font face="SansSerif" size="3" color="#000000"><img align="right" src="jar:file:/C:/Program%20Files%20(x86)/Jaspersoft/iReport-5.6.0/ireport/modules/com-jaspersoft-ireport.jar!/com/jaspersoft/ireport/designer/compiler/world.png"> &nbsp;Locale: <b>français (France)</b></font>
+<font face="SansSerif" size="3" color="#000000"><img align="right" src="jar:file:/C:/Program%20Files%20(x86)/Jaspersoft/iReport-5.6.0/ireport/modules/com-jaspersoft-ireport.jar!/com/jaspersoft/ireport/designer/compiler/timezone.png"> &nbsp;Time zone: <b>Default</b></font>
+
+<font face="SansSerif"  size="3" color="#0000CC"><b>Report fill running time: 30!</b> (pages generated: 1)</font><hr>
+
+<font face="SansSerif"  size="3"><img align="right" src="jar:file:/C:/Program%20Files%20(x86)/Jaspersoft/iReport-5.6.0/ireport/modules/com-jaspersoft-ireport.jar!/com/jaspersoft/ireport/designer/compiler/printer_mini.png"> &nbsp;Exporting PDF (using iText) to file...  C:\Users\mlebeau\report2.pdf!</font>
+
+<font face="SansSerif"  size="3" color="#0000CC"><b>Export running time: 20!</b></font><hr>
+<font face="SansSerif"  size="3">Executing: rundll32 SHELL32.DLL,ShellExec_RunDLL "C:\Users\mlebeau\report2.pdf"</font>
+Getting the property: net.sf.jasperreports.report.version
+Charset used: UTF-8!!!!
+<font face="SansSerif" size="3" color="#000000"><img align="right" src="jar:file:/C:/Program%20Files%20(x86)/Jaspersoft/iReport-5.6.0/ireport/modules/com-jaspersoft-ireport.jar!/com/jaspersoft/ireport/designer/compiler/comp1_mini.jpg"> &nbsp;Compiling to file... C:\Users\mlebeau\report2.jasper</font>
+
+<font face="SansSerif"  size="3" color="#0000CC"><b>Compilation running time: 190!</b></font><hr>
+<font face="SansSerif" size="3" color="#000000"><img align="right" src="jar:file:/C:/Program%20Files%20(x86)/Jaspersoft/iReport-5.6.0/ireport/modules/com-jaspersoft-ireport.jar!/com/jaspersoft/ireport/designer/compiler/rundb1_mini.jpg"> &nbsp;Filling report...</font>
+<font face="SansSerif" size="3" color="#000000"><img align="right" src="jar:file:/C:/Program%20Files%20(x86)/Jaspersoft/iReport-5.6.0/ireport/modules/com-jaspersoft-ireport.jar!/com/jaspersoft/ireport/designer/compiler/world.png"> &nbsp;Locale: <b>français (France)</b></font>
+<font face="SansSerif" size="3" color="#000000"><img align="right" src="jar:file:/C:/Program%20Files%20(x86)/Jaspersoft/iReport-5.6.0/ireport/modules/com-jaspersoft-ireport.jar!/com/jaspersoft/ireport/designer/compiler/timezone.png"> &nbsp;Time zone: <b>Default</b></font>
+
+<font face="SansSerif"  size="3" color="#0000CC"><b>Report fill running time: 30!</b> (pages generated: 1)</font><hr>
+
+<font face="SansSerif"  size="3"><img align="right" src="jar:file:/C:/Program%20Files%20(x86)/Jaspersoft/iReport-5.6.0/ireport/modules/com-jaspersoft-ireport.jar!/com/jaspersoft/ireport/designer/compiler/printer_mini.png"> &nbsp;Exporting PDF (using iText) to file...  C:\Users\mlebeau\report2.pdf!</font>
+
+<font face="SansSerif"  size="3" color="#0000CC"><b>Export running time: 20!</b></font><hr>
+<font face="SansSerif"  size="3">Executing: rundll32 SHELL32.DLL,ShellExec_RunDLL "C:\Users\mlebeau\report2.pdf"</font>
+AVERTISSEMENT [org.netbeans.core.multiview.MultiViewTopComponent]: The MultiviewDescription instance class com.jaspersoft.ireport.designer.JrxmlTextView is not serializable. Cannot persist TopComponent.
+AVERTISSEMENT [org.netbeans.core.multiview.MultiViewTopComponent]: The MultiviewDescription instance class com.jaspersoft.ireport.designer.JrxmlTextView is not serializable. Cannot persist TopComponent.
+Closing Hive Module
+Closing MongoDb Module

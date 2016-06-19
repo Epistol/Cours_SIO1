@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="report1" language="groovy" pageWidth="595" pageHeight="842" columnWidth="535" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="4ae95342-f285-44e2-b8a3-f5086ab27e81">
+	<style name="Title" forecolor="#FFFFFF" fontName="Times New Roman" fontSize="50" isBold="false" pdfFontName="Times-Bold"/>
+	<style name="SubTitle" forecolor="#CCCCCC" fontName="Times New Roman" fontSize="18" isBold="false" pdfFontName="Times-Roman"/>
+	<style name="Column header" forecolor="#666666" fontName="Times New Roman" fontSize="14" isBold="true" pdfFontName="Times-Roman"/>
+	<style name="Detail" mode="Transparent" fontName="Times New Roman" pdfFontName="Times-Roman"/>
+	<style name="Row" mode="Transparent" fontName="Times New Roman" pdfFontName="Times-Roman">
+		<conditionalStyle>
+			<conditionExpression><![CDATA[$V{REPORT_COUNT}%2 == 0]]></conditionExpression>
+			<style mode="Opaque" backcolor="#F0EFEF"/>
+		</conditionalStyle>
+	</style>
+	<queryString language="SQL">
+		<![CDATA[SELECT
+     Client.`idClient` AS Client_idClient,
+     Client.`nomClient` AS Client_nomClient,
+     Client.`prenomClient` AS Client_prenomClient,
+     Client.`ddnClient` AS Client_ddnClient,
+     Client.`telClient` AS Client_telClient,
+     Client.`mailClient` AS Client_mailClient,
+     Client.`adresseClient` AS Client_adresseClient,
+     Client.`villeClient` AS Client_villeClient,
+     Client.`cpClient` AS Client_cpClient,
+     Commande.`idCommande` AS Commande_idCommande,
+     Commande.`dateCommande` AS Commande_dateCommande,
+     Commande.`heureCommande` AS Commande_heureCommande,
+     Commande.`idClient` AS Commande_idClient,
+     Contenir.`idProduit` AS Contenir_idProduit,
+     Contenir.`idCommande` AS Contenir_idCommande,
+     Contenir.`qte` AS Contenir_qte,
+     Produit.`idProduit` AS Produit_idProduit,
+     Produit.`nomProduit` AS Produit_nomProduit,
+     Produit.`pxProduit` AS Produit_pxProduit,
+     Produit.`qteStockProduit` AS Produit_qteStockProduit
+FROM
+     `Client` Client INNER JOIN `Commande` Commande ON Client.`idClient` = Commande.`idClient`
+     INNER JOIN `Contenir` Contenir ON Commande.`idCommande` = Contenir.`idCommande`
+     INNER JOIN `Produit` Produit ON Contenir.`idProduit` = Produit.`idProduit`]]>
+	</queryString>
+	<field name="Produit_idProduit" class="java.lang.Integer"/>
+	<field name="Produit_nomProduit" class="java.lang.String"/>
+	<field name="Produit_pxProduit" class="java.lang.Float"/>
+	<field name="Produit_qteStockProduit" class="java.lang.Integer"/>
+	<group name="Produit_idProduit">
+		<groupExpression><![CDATA[$F{Produit_idProduit}]]></groupExpression>
+		<groupHeader>
+			<band height="37">
+				<frame>
+					<reportElement mode="Opaque" x="0" y="7" width="555" height="24" forecolor="#B89F7D" backcolor="#000000" uuid="db898b59-d405-47af-9fa2-f94171f72c91"/>
+					<textField isStretchWithOverflow="true">
+						<reportElement style="SubTitle" isPrintRepeatedValues="false" x="2" y="0" width="479" height="24" forecolor="#FFFFFF" uuid="27ac53db-de35-42cc-b272-ec0c916d75f7"/>
+						<textElement>
+							<font isBold="false"/>
+						</textElement>
+						<textFieldExpression><![CDATA[$F{Produit_idProduit}]]></textFieldExpression>
+					</textField>
+				</frame>
+			</band>
+		</groupHeader>
+		<groupFooter>
+			<band height="6"/>
+		</groupFooter>
+	</group>
+	<group name="Produit_nomProduit">
+		<groupExpression><![CDATA[$F{Produit_nomProduit}]]></groupExpression>
+		<groupHeader>
+			<band height="30">
+				<textField>
+					<reportElement positionType="Float" x="0" y="4" width="555" height="26" forecolor="#000000" uuid="8dcc6a9e-2ce4-4a60-9bde-c01581025f3b"/>
+					<textElement>
+						<font fontName="Times New Roman" size="16" isBold="false"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{Produit_nomProduit}]]></textFieldExpression>
+				</textField>
+			</band>
+		</groupHeader>
+	</group>
+	<group name="Produit_pxProduit">
+		<groupExpression><![CDATA[$F{Produit_pxProduit}]]></groupExpression>
+	</group>
+	<group name="Produit_qteStockProduit">
+		<groupExpression><![CDATA[$F{Produit_qteStockProduit}]]></groupExpression>
+	</group>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="132" splitType="Stretch">
+			<image>
+				<reportElement x="456" y="0" width="99" height="132" uuid="442e5ea0-5b55-45e0-aec8-21c72a702695"/>
+				<imageExpression><![CDATA["cherry.jpg"]]></imageExpression>
+			</image>
+			<frame>
+				<reportElement mode="Opaque" x="0" y="0" width="451" height="95" backcolor="#000000" uuid="734e5fa2-e146-4799-933a-bb2e94c71998"/>
+				<staticText>
+					<reportElement style="Title" x="0" y="0" width="370" height="66" uuid="5faca9ea-8cc2-432b-ad4d-5ea88be834b5"/>
+					<textElement>
+						<font isBold="false"/>
+					</textElement>
+					<text><![CDATA[Cherry Title]]></text>
+				</staticText>
+				<staticText>
+					<reportElement style="SubTitle" x="157" y="66" width="249" height="29" uuid="f75da073-a0c3-4cf2-8da7-6c061f27f098"/>
+					<textElement>
+						<font size="22" isBold="false"/>
+					</textElement>
+					<text><![CDATA[Cherry SubTitle]]></text>
+				</staticText>
+			</frame>
+			<frame>
+				<reportElement mode="Opaque" x="0" y="100" width="451" height="32" forecolor="#000000" backcolor="#CC0000" uuid="8448f295-6cc0-4431-ac98-76f681b3489a"/>
+				<textField pattern="EEEEE dd MMMMM yyyy">
+					<reportElement x="307" y="12" width="144" height="20" forecolor="#FFFFFF" uuid="9880064d-a63b-4776-bf0d-e5d25cc97973"/>
+					<textElement textAlignment="Right">
+						<font size="12"/>
+					</textElement>
+					<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+	</title>
+	<pageHeader>
+		<band splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="26" splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="18" splitType="Stretch">
+			<frame>
+				<reportElement style="Row" mode="Opaque" x="0" y="0" width="555" height="18" uuid="c3b544ac-de59-4b52-9ee1-1b1ce99fe51d"/>
+			</frame>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="7" splitType="Stretch">
+			<line>
+				<reportElement positionType="FixRelativeToBottom" x="0" y="3" width="555" height="1" uuid="5122f936-2863-446d-abcd-68ace28a2c26"/>
+				<graphicElement>
+					<pen lineWidth="0.5" lineColor="#999999"/>
+				</graphicElement>
+			</line>
+		</band>
+	</columnFooter>
+	<pageFooter>
+		<band height="25" splitType="Stretch">
+			<frame>
+				<reportElement mode="Opaque" x="0" y="1" width="555" height="24" forecolor="#D0B48E" backcolor="#000000" uuid="32508f00-2d70-4b63-883d-6b8f91ec00b2"/>
+				<textField evaluationTime="Report">
+					<reportElement style="Column header" x="513" y="0" width="40" height="20" forecolor="#FFFFFF" uuid="4a248a4f-5ede-497a-8200-f361437afa45"/>
+					<textElement verticalAlignment="Middle">
+						<font size="10" isBold="false"/>
+					</textElement>
+					<textFieldExpression><![CDATA[" " + $V{PAGE_NUMBER}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement style="Column header" x="433" y="0" width="80" height="20" forecolor="#FFFFFF" uuid="6aeb7e2a-f254-4274-84c7-60db25882c5c"/>
+					<textElement textAlignment="Right" verticalAlignment="Middle">
+						<font size="10" isBold="false"/>
+					</textElement>
+					<textFieldExpression><![CDATA["Page "+$V{PAGE_NUMBER}+" of"]]></textFieldExpression>
+				</textField>
+				<textField pattern="EEEEE dd MMMMM yyyy">
+					<reportElement style="Column header" x="2" y="1" width="197" height="20" forecolor="#FFFFFF" uuid="104e29be-39a1-4d2f-a265-4a0c0091e015"/>
+					<textElement verticalAlignment="Middle">
+						<font size="10" isBold="false"/>
+					</textElement>
+					<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+	</pageFooter>
+	<summary>
+		<band splitType="Stretch"/>
+	</summary>
+</jasperReport>

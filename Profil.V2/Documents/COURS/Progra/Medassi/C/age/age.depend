@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1443002090 source:t:\profil.v2\documents\age\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+

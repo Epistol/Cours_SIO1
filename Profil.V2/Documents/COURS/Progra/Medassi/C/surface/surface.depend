@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1443599222 source:t:\profil.v2\documents\surface\main.c
+	<stdio.h>
+	<stdlib.h>
+

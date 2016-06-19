@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1454052317 source:c:\users\dalan\documents\cours\semestre 1\programmation\tri_fichier\main.c
+	<stdio.h>
+	<stdlib.h>
+

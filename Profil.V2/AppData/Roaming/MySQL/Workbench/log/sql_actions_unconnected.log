@@ -1,0 +1,78 @@
+[1, 10:14:20] Apply changes to Etudiant: Preparing...
+[1, 10:14:28] Applying changes to Etudiant...: 
+[1, 10:14:28] : Changes applied to Etudiant
+[1, 10:14:31] Apply changes to Etudiant: Changes applied
+[2, 10:16:04] SELECT * FROM comclisio1_201516_mlebeau.Etudiant
+LIMIT 0, 1000
+: Running...
+[2, 10:16:04] SELECT * FROM comclisio1_201516_mlebeau.Etudiant
+LIMIT 0, 1000
+: Fetching...
+[2, 10:16:04] SELECT * FROM comclisio1_201516_mlebeau.Etudiant
+LIMIT 0, 1000
+: 0 row(s) returned
+[3, 10:17:58] Apply changes to Classe: Preparing...
+[3, 10:18:00] Apply changes to Classe: 
+[4, 10:18:43] Apply changes to Classe: Preparing...
+[4, 10:18:44] Applying changes to Classe...: 
+[4, 10:18:45] : Changes applied to Classe
+[4, 10:18:46] Apply changes to Classe: Changes applied
+[5, 10:18:52] SELECT * FROM comclisio1_201516_mlebeau.Classe
+LIMIT 0, 1000
+: Running...
+[5, 10:18:52] SELECT * FROM comclisio1_201516_mlebeau.Classe
+LIMIT 0, 1000
+: Fetching...
+[5, 10:18:52] SELECT * FROM comclisio1_201516_mlebeau.Classe
+LIMIT 0, 1000
+: 0 row(s) returned
+[6, 10:19:33] Apply changes to Etudiant: Preparing...
+[6, 10:19:34] Applying changes to Etudiant...: 
+[6, 10:19:34] : Changes applied to Etudiant
+[6, 10:19:35] Apply changes to Etudiant: Changes applied
+[7, 10:20:53] SELECT * FROM comclisio1_201516_mlebeau.Classe
+LIMIT 0, 1000
+: Running...
+[7, 10:20:53] SELECT * FROM comclisio1_201516_mlebeau.Classe
+LIMIT 0, 1000
+: Fetching...
+[7, 10:20:53] SELECT * FROM comclisio1_201516_mlebeau.Classe
+LIMIT 0, 1000
+: 3 row(s) returned
+[8, 10:20:59] SELECT * FROM comclisio1_201516_mlebeau.Etudiant
+LIMIT 0, 1000
+: Running...
+[8, 10:20:59] SELECT * FROM comclisio1_201516_mlebeau.Etudiant
+LIMIT 0, 1000
+: Fetching...
+[8, 10:20:59] SELECT * FROM comclisio1_201516_mlebeau.Etudiant
+LIMIT 0, 1000
+: 1 row(s) returned
+[9, 10:21:47] SELECT * FROM comclisio1_201516_mlebeau.Classe
+LIMIT 0, 1000
+: Running...
+[9, 10:21:47] SELECT * FROM comclisio1_201516_mlebeau.Classe
+LIMIT 0, 1000
+: Fetching...
+[9, 10:21:47] SELECT * FROM comclisio1_201516_mlebeau.Classe
+LIMIT 0, 1000
+: 3 row(s) returned
+[10, 10:21:50] SELECT * FROM comclisio1_201516_mlebeau.Etudiant
+LIMIT 0, 1000
+: Running...
+[10, 10:21:50] SELECT * FROM comclisio1_201516_mlebeau.Etudiant
+LIMIT 0, 1000
+: Fetching...
+[10, 10:21:50] SELECT * FROM comclisio1_201516_mlebeau.Etudiant
+LIMIT 0, 1000
+: 1 row(s) returned
+[11, 10:25:31] Apply changes to Classe: Preparing...
+[11, 10:25:33] Applying changes to Classe...: 
+[11, 10:25:33] : Changes applied to Classe
+[11, 10:25:34] Apply changes to Classe: Changes applied
+[12, 10:26:24] Apply changes to Etudiant: Preparing...
+[12, 10:26:25] Applying changes to Etudiant...: 
+[12, 10:26:25] : Changes applied to Etudiant
+[12, 10:26:26] Apply changes to Etudiant: Changes applied
+[13, 10:31:46] Apply changes to Etudiant: Preparing...
+[13, 10:31:46] Apply changes to Etudiant: No changes detected

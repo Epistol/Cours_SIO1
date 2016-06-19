@@ -1,0 +1,9 @@
+comp
+status=Optin&global=criteolow3%3Dtrue%2Fl%2F1%3Bcriteohigh4%3Dtrue%2Fl%2F1%3Bcriteohigh3%3Dtrue%2Fl%2F1
+ad.prismamediadigital.com/
+2147484672
+1598806016
+30478804
+99192443
+30472842
+*
